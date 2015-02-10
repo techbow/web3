@@ -1,66 +1,61 @@
 
-Resource: W3schools
+<!DOCTYPE HTML>
+<html xml:lang="en-EN" lang="en-EN"><head>
 
-Object: Resume
+<script src="js/jQuery.js"></script>
+<style>
+body {
+	margin: 0px 50px;
+	background-color: #F5F5BE;
+	font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+	font-size: 16px;
 
-Compatibility：@-webit-
+}
 
-Website: CSS3 Generator
+hr {
+	height:1px;
+	border:0;
+	border-bottom:1px solid black;
+	margin:0
+}
 
-HTML5 data access: data-properties?
+li {
+	line-height: 30px;
+}
 
-HTML5: create own tag and use it in the css file
+</style>
+<title>Note</title>
 
-HTML background: 3 layers: content; image, background color
+</head>
+<body>
+	<h1 align="center">Note: Class 2 -- HTML </h1>
+	<div>
+      <ul id="formed-data">
+      <li>Resource: W3schools</li><hr><li>	</li><hr><li>	Object: Resume</li><hr><li>	Compatibility: -webit-</li><hr><li>	Website: CSS3 Generator</li><hr><li>	HTML5 data access: data-properties?</li><hr><li>	HTML5: create own tag and use it in the css file</li><hr><li>	HTML background: 3 layers: content; image, background color</li><hr><li>	h1--h6: Tell google to index page, semetiac </li><hr><li>	CSS clear reset: in css files, @import "reset.css"</li><hr><li>	Four ways to use href:</li><hr><li>	a href: mailto:xxx@xx.com?Subject=xxxxx</li><hr><li>	&lt;a href="tel: +12345678901"&gt; xxxxx &lt;/a&gt;</li><hr><li>	&lt;a href="#linkid"&gt;&lt;/a&gt;</li><hr><li>	&lt;a href="skype:xxxxxxx"&gt;xxxx&lt;/a&gt;</li><hr><li>	Now &lt;img&gt; only use for Logo, others using backgroud</li><hr><li>	HTML: lowercase</li><hr><li>	out: ""; in: ''</li><hr><li>	indentation: Tab</li><hr><li>	Responsive Design/Adative Design</li><hr><li>	CSS3 @media Query for the Responsive Design</li><hr><li>	HTML5 tag:</li><hr><li>	footer, header, section</li><hr><li>	New Input Type (Try them)</li><hr><li>	New Input Attributes: autocomplete, pattern(important), placeholder</li><hr><li>	Local Storage</li><hr><li>	session and cookie: difference</li><hr><li>	session on the server, and cookie on the local browser</li><hr><li>	New API for HTMLs</li><hr><li>	Location，Mic, Video </li><hr><li>	CSS format: http://www.codebeautifier.com/</li><hr><li>	Interview Questions</li><hr><li>	1. means: -webkit-, -ms-, -moz-, -o-</li><hr><li>	2. HTML---Plain Editor</li><hr><li>	3. Difference &lt;div&gt; and &lt;p&gt;</li><hr><li>	4. Using one image to load, select the postion of the image to show the image (How to fast load a page with high visting)</li><hr><li>	5. css position</li><hr><li>	6. center the element:</li><hr><li>	text-align: center</li><hr><li>	left 50% then right margin 50%</li><hr><li>	left margin: auto; right margin: auto </li><hr><li>	7. regular expression</li><hr></ul>
+	</div>
 
-h1--h6: Tell google to index page, semetiac 
+<script>
+	var content = localStorage['foo'];
+	content = content.trim().split("\n");
+	console.log(content.length);
+	for (line in content) {
+		if (content[line]) {
+			content_line = HTMLEncode(content[line])
+			var newcontent = "<li>" + content_line + "</li>";
+			$("#formed-data").append(newcontent);
+			$("#formed-data").append("<hr>");			
+		}
+	}
 
-CSS clear reset: in css files, @import "reset.css"
-
-
-Four ways to use href:
-
-a href: mailto:xxx@xx.com?Subject=xxxxx
-
-<a href="tel: +12345678901"> xxxxx </a>
-
-<a href="#linkid"></a>
-
-<a href="skype:xxxxxxx">xxxx</a>
-
-
-Now <img> only use for Logo, others using backgroud
-
-HTML: lowercase
-out: ""; in: ''
-indentation: Tab
-
-
-Responsive Design/Adative Design
-
-HTML5 tag:
-footer, header, section
-
-New Input Type (Try them)
-New Input Attributes: autocomplete, pattern(important), placeholder
-
-Local Storage
-session and cookie: difference
-
-New API for HTMLs
-Location，Mic, Video 
-
-CSS format: http://www.codebeautifier.com/
+	function HTMLEncode (input) {
+		var converter = document.createElement("DIV");
+		converter.innerText = input;
+		var output = converter.innerHTML;
+		converter = null;
+		return output;
+		}
 
 
-Interview Questions
-1. means: -webkit-, -ms-, -moz-, -o-
-2. HTML---Plain Editor
-3. Difference <div> and <p>
-4. Using one image to load, select the postion of the image to show the image (How to fast load a page with high visting)
-5. css position
-6. center the element:
-text-align: center
-left 50% then right margin 50%
-left margin: auto; right margin: auto 
-7. regular expression
+</script>
+
+</body></html>

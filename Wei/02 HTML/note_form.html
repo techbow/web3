@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xml:lang="en-EN" lang="en-EN">
+<head>
+<script src="js/jQuery.js"></script>
+<title>Note Format</title>
+
+</head>
+<body>
+	<h1 > Note Format </h1>
+	<div class="form">
+	<form action="note-formed.html" method="get">
+		<button onclick= "getdata()">Submit</button>
+		<br><br>
+		<textarea id="content" cols="80" rows="80" placeholder="Copy Here"></textarea>
+	</form>
+	</div>
+
+	<div>
+      <ul id="formed-data">
+      </ul>
+	</div>
+
+<script>
+function getdata() {
+	var content = document.getElementById("content").value;
+	localStorage['foo'] = content;
+}
+
+
+// window.addEventListener('storage', function(e) {
+//     console.log(e.key + "'s value is changed from '" +
+//         e.oldValue + "' to '" + e.newValue + "' by " + e.url);
+// }, false);
+
+
+</script>
+
+
+</body>
