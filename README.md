@@ -6,3 +6,5 @@ Repository for techbow workshop web 开发 第三期
 3. Please change, commit and push code from your local to your own repo
 4. If everything ok, send pull request from your own repo to main repo
 5. Don't touch master branch, that is for backup
+
+第一次课 最爱学习奖 $30 获得者 Wei Han https://github.com/hanweifish
