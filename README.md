@@ -27,6 +27,7 @@ web003yuzhong<br>
 <br>
 2. wordpress练习<br>
 wp访问方式：http://zizuo.us/用户名/wp<br>
+wp后台访问：http://Zizuo.us/用户名/wp/wp-admin<br>
 用户名密码同上<br>
 Demo 的theme 在 dropbox链接 里找bridge.zip<br>
 <br>
