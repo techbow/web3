@@ -28,12 +28,14 @@ web003yuzhong<br>
 2. wordpress练习<br>
 wp访问方式：http://zizuo.us/用户名/wp<br>
 用户名密码同上<br>
-Demo 的theme 在 resource文件夹里找bridge.zip<br>
+Demo 的theme 在 dropbox链接 里找bridge.zip<br>
 <br>
 3. 选三个设计中的一个，写自己的个人简历，不许仿站，要从头开始写，layout用 float实现<br>
-设计文件在 resource里找<br>
+设计文件在 dropbox链接 里找<br>
 完成之后在ftp根目录下新建 一个叫resume的文件夹，然后把作业上传<br>
 <br>
 4. 复习CSS的slides<br>
-slides在 resource里找<br>
+slides在 dropbox链接 里找<br>
+
+dropbox链接：https://www.dropbox.com/sh/jngfet4e8lw9dzt/AADPcySA5FzAy5ibyloaQiy2a?dl=0
 
