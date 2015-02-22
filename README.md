@@ -6,6 +6,7 @@ Repository for techbow workshop web 开发 第三期 <br>
 5. Don't touch master branch, that is for backup<br>
 
 第一次课 最爱学习奖 $30 获得者 Wei Han https://github.com/hanweifish <br>
+第二次课 最爱作业奖 $30 获得者 Wei Han https://github.com/hanweifish <br>
 
 第二次课作业及资源<br>
 <br>
