@@ -30,8 +30,8 @@ li {
 <body>
 	<h1 align=center>Note</h1>
 	<div>
-      <ul id="formed-data">
-      </ul>
+		<ul id="formed-data">
+ 		</ul>
 	</div>
 
 <script>
@@ -43,7 +43,7 @@ li {
 			content_line = HTMLEncode(content[line])
 			var newcontent = "<li>" + content_line + "</li>";
 			$("#formed-data").append(newcontent);
-			$("#formed-data").append("<hr>");			
+			$("#formed-data").append("<hr>");
 		}
 	}
 
@@ -53,7 +53,7 @@ li {
 		var output = converter.innerHTML;
 		converter = null;
 		return output;
-		}
+	}
 
 
 </script>
