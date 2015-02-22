@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html xml:lang="en-EN" lang="en-EN">
+
+<head>
+
+    <script src="js/jQuery.js"></script>
+    <style>
+        body {
+            margin: 0px 50px;
+            background-color: #F5F5BE;
+            font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+            font-size: 16px;
+        }
+        hr {
+            height: 1px;
+            border: 0;
+            border-bottom: 1px solid black;
+            margin: 0
+        }
+        li {
+            line-height: 30px;
+        }
+    </style>
+    <title>Note</title>
+
+</head>
+
+<body>
+    <h1 align="center">Note</h1>
+    <div>
+        <ul id="formed-data">
+            <li>CSS</li>
+            <hr>
+            <li>link rel="stylesheet" src</li>
+            <hr>
+            <li>jQuery has the document selector, CSS does not have.</li>
+            <hr>
+            <li>style priority</li>
+            <hr>
+            <li>1. External &lt;link&gt;</li>
+            <hr>
+            <li>2. In the &lt;head&gt;</li>
+            <hr>
+            <li>3. Inline style attribute</li>
+            <hr>
+            <li>4. Using !important</li>
+            <hr>
+            <li>Floating Left&amp;Right -----interview question</li>
+            <hr>
+            <li>float: left/right/none</li>
+            <hr>
+            <li>Cleaning Floats</li>
+            <hr>
+            <li>clear: left/right/both</li>
+            <hr>
+            <li>Try it yourself. (consider the height of image is larger than the parent div height)</li>
+            <hr>
+            <li>img {</li>
+            <hr>
+            <li> float: left;</li>
+            <hr>
+            <li>}</li>
+            <hr>
+            <li>p.clear {</li>
+            <hr>
+            <li> clear: both;</li>
+            <hr>
+            <li>}</li>
+            <hr>
+            <li>No floating elements allowed on the left or the right side of a specified &lt;p&gt; element:</li>
+            <hr>
+            <li>.featured p {}: all p under class featured</li>
+            <hr>
+            <li>.featured&gt;p {}: first layer p</li>
+            <hr>
+            <li>class for css</li>
+            <hr>
+            <li>id for javascript</li>
+            <hr>
+            <li>box-sizing: border-box : 定义content的width包含padding和border</li>
+            <hr>
+            <li>overflow: visible/auto/hidden/scroll</li>
+            <hr>
+            <li>overflow is important</li>
+            <hr>
+            <li>position: static/relative/absolute/fixed</li>
+            <hr>
+            <li>fixed: nagavitor bar (fixed on the top of the window)</li>
+            <hr>
+            <li>absolute: on the page</li>
+            <hr>
+            <li>vertical-align: baseline;</li>
+            <hr>
+            <li>z-index: -1;</li>
+            <hr>
+            <li>z-index 必须配合position一起使用</li>
+            <hr>
+            <li>Elements must be positioned for z-index to take effect.</li>
+            <hr>
+            <li>can use two classes: class="button submit"</li>
+            <hr>
+            <li>CSS shorthands</li>
+            <hr>
+            <li>margin: 10px, 0, 0, 20px; // top right bottom left</li>
+            <hr>
+            <li>margin: 0, 0, 20px; // top right&amp;left bottom</li>
+            <hr>
+            <li>block/in-line/inline-block</li>
+            <hr>
+            <li>Wordpress</li>
+            <hr>
+            <li>shopify: based on nodejs</li>
+            <hr>
+            <li>Homework</li>
+            <hr>
+            <li>1. 仿站结果上传ftp，看看效果</li>
+            <hr>
+            <li>2. 熟悉wordpress</li>
+            <hr>
+            <li>3. 简历模板，选一个style，从头开始， 发pull request</li>
+            <hr>
+            <li>use float</li>
+            <hr>
+            <li>4. Review/Goover the slides</li>
+            <hr>
+        </ul>
+    </div>
+
+    <script>
+        var content = localStorage['foo'];
+        content = content.trim().split("\n");
+        console.log(content.length);
+        for (line in content) {
+            if (content[line]) {
+                content_line = HTMLEncode(content[line])
+                var newcontent = "<li>" + content_line + "</li>";
+                $("#formed-data").append(newcontent);
+                $("#formed-data").append("<hr>");
+            }
+        }
+
+        function HTMLEncode(input) {
+            var converter = document.createElement("DIV");
+            converter.innerText = input;
+            var output = converter.innerHTML;
+            converter = null;
+            return output;
+        }
+    </script>
+
+</body>
+
+</html>
