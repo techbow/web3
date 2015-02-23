@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xml:lang="en-EN" lang="en-EN">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jQuery.js"></script>
+    <style>
+        body {
+            margin: 0px 50px;
+            background-color: #F5F5BE;
+            font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+            font-size: 16px;
+        }
+        hr {
+            height: 1px;
+            border: 0;
+            border-bottom: 1px solid black;
+            margin: 0
+        }
+        li {
+            line-height: 30px;
+        }
+    </style>
+    <title>Note</title>
+
+</head>
+
+<body>
+    <h1 align="center">Note</h1>
+    <div>
+        <ul id="formed-data">
+            <li>new choice:</li>
+            <hr>
+            <li>semantic UI</li>
+            <hr>
+            <li>@media query</li>
+            <hr>
+            <li>Image sprite: Sprite generator</li>
+            <hr>
+            <li>compare: == and ===</li>
+            <hr>
+            <li>html的block继承问题：please check (div float)</li>
+            <hr>
+            <li>js and css naming: first letter cannot be number</li>
+            <hr>
+            <li>score_ins: _ is reversed to liberay</li>
+            <hr>
+            <li>camel case</li>
+            <hr>
+            <li>string operate: charAt()</li>
+            <hr>
+            <li>if ( ; ; )</li>
+            <hr>
+            <li>else if</li>
+            <hr>
+            <li>&amp;&amp; and ||</li>
+            <hr>
+            <li>var a = 1;</li>
+            <hr>
+            <li>var b = 1, c = 1, d = 1;</li>
+            <hr>
+            <li>build-in function</li>
+            <hr>
+            <li>alert(): 程序暂停， 可以调试各种变量的值， in console, in the loop, use the alert to check, good tool</li>
+            <hr>
+            <li>confirm()</li>
+            <hr>
+            <li>typeof</li>
+            <hr>
+            <li>person["name"] niuren style</li>
+            <hr>
+            <li>person.name json style</li>
+            <hr>
+            <li>function acted as the parameter of another function</li>
+            <hr>
+            <li>important: callback function (check later)</li>
+            <hr>
+            <li>var alertText = function() {</li>
+            <hr>
+            <li> return function () {</li>
+            <hr>
+            <li> alert("haha");</li>
+            <hr>
+            <li> }</li>
+            <hr>
+            <li>}</li>
+            <hr>
+            <li>var dosometing = function(func) {</li>
+            <hr>
+            <li> console.log("chuan func");</li>
+            <hr>
+            <li> func()();</li>
+            <hr>
+            <li>}</li>
+            <hr>
+            <li>It works.</li>
+            <hr>
+            <li>function: New .... 用在class的时候, check it</li>
+            <hr>
+            <li>$("h1").text();</li>
+            <hr>
+            <li>$("h1").html();</li>
+            <hr>
+            <li>The Document Ready Event</li>
+            <hr>
+            <li>$(document).ready(function(){</li>
+            <hr>
+            <li> // jQuery methods go here...</li>
+            <hr>
+            <li>});</li>
+            <hr>
+            <li>or</li>
+            <hr>
+            <li>$(function(){</li>
+            <hr>
+            <li> // jQuery methods go here...</li>
+            <hr>
+            <li>});</li>
+            <hr>
+            <li>.click(func): return的是 func(), defined in the click, return 并且执行</li>
+            <hr>
+            <li>callback: inside的函数确保再outersider的函数外面执行</li>
+            <hr>
+            <li>example: animate.css</li>
+            <hr>
+            <li>$. get();</li>
+            <hr>
+            <li>$. post();</li>
+            <hr>
+            <li>$. ajax();</li>
+            <hr>
+            <li>AJAX一定要与后台服务器有communication</li>
+            <hr>
+            <li>get, post, delete, put (put act as update)</li>
+            <hr>
+            <li>class; data-conflum</li>
+            <hr>
+            <li>in jQuery: $(''). data("conflum")</li>
+            <hr>
+            <li>Using Event Delegation</li>
+            <hr>
+        </ul>
+    </div>
+
+    <script>
+        var content = localStorage['foo'];
+        content = content.trim().split("\n");
+        console.log(content.length);
+        for (line in content) {
+            if (content[line]) {
+                content_line = HTMLEncode(content[line])
+                var newcontent = "<li>" + content_line + "</li>";
+                $("#formed-data").append(newcontent);
+                $("#formed-data").append("<hr>");
+            }
+        }
+
+        function HTMLEncode(input) {
+            var converter = document.createElement("DIV");
+            converter.innerText = input;
+            var output = converter.innerHTML;
+            converter = null;
+            return output;
+        }
+    </script>
+
+</body>
+
+</html>
