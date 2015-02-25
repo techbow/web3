@@ -68,7 +68,7 @@ transition:all .5s ease-out;
 display:inline-block;
 width:32px;
 height:52px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/num-1.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/num-1.png) no-repeat;
 }
 
 .num-1-1 {
@@ -111,7 +111,7 @@ background-position:0 -468px;
 display:inline-block;
 width:32px;
 height:52px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/num-2.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/num-2.png) no-repeat;
 }
 
 .num-2-1 {
@@ -158,7 +158,7 @@ background-position:0 -464px;
 display:inline-block;
 width:13px;
 height:37px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/num-3.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/num-3.png) no-repeat;
 }
 
 .num-3-0 {
@@ -349,7 +349,7 @@ top:70px;
 .specs-main .specs-right .cover-text {
 padding-top:50px;
 padding-right:40px;
-background:#fff url(//global.mifile.cn/webfile/globalimg/common/wristbandspecs-main-04.jpg) 50% 0 no-repeat;
+background:#fff url(http://global.mifile.cn/webfile/globalimg/common/wristbandspecs-main-04.jpg) 50% 0 no-repeat;
 text-align:center;
 }
 
@@ -616,7 +616,7 @@ color:#6d6d6d;
 display:block;
 width:11px;
 height:24px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/mouse-down.png) repeat-y;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/mouse-down.png) repeat-y;
 position:absolute;
 left:50%;
 margin-left:-5px;
@@ -648,7 +648,7 @@ position:absolute;
 top:100px;
 left:50%;
 margin-left:-620px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-15.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-15.jpg) no-repeat center 0;
 }
 
 .sh-container .section-02 .container .content {
@@ -681,7 +681,7 @@ margin:0 3px;
 display:inline-block;
 width:9px;
 height:52px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/colon.png) no-repeat center bottom;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/colon.png) no-repeat center bottom;
 margin:0 5px;
 }
 
@@ -691,7 +691,7 @@ width:29px;
 height:15px;
 position:relative;
 top:-15px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/am.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/am.png) no-repeat;
 }
 
 .sh-container .section-03 .slide {
@@ -733,42 +733,42 @@ padding:5px 0 3px;
 }
 
 .sh-container .section-03 .slide-1 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-1 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app.png) no-repeat;
 }
 
 .sh-container .section-03 .slide-1 .txt {
 width:260px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-4.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-4.png) no-repeat;
 }
 
 .sh-container .section-03 .slide-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-2 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app.png) no-repeat;
 }
 
 .sh-container .section-03 .slide-2 .txt {
 width:277px;
-background:url(//global.mifile.cn/webfile/globalimg/common/christ/me-17.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/christ/me-17.png) no-repeat;
 }
 
 .sh-container .section-03 .slide-3 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-3 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app.png) no-repeat;
 }
 
 .sh-container .section-03 .slide-3 .txt {
 width:360px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-6.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-6.png) no-repeat;
 }
 
 .sh-container .section-03 .tabs {
@@ -809,13 +809,13 @@ right:0;
 }
 
 .sh-container .section-04 .item-1 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-1 .txt {
 width:420px;
 height:118px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-7.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-7.png) no-repeat;
 }
 
 .sh-container .section-04 .item-1 .bulb {
@@ -826,7 +826,7 @@ top:50%;
 left:50%;
 margin-top:-177px;
 margin-left:-177px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-bulb.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-bulb.png) no-repeat;
 cursor:pointer;
 }
 
@@ -835,7 +835,7 @@ display:block;
 width:11px;
 height:11px;
 position:absolute;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-dot.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-dot.png) no-repeat;
 }
 
 .sh-container .section-04 .item-1 .bulb .dot-1 {
@@ -865,7 +865,7 @@ left:233px;
 
 .sh-container .section-04 .item-2 {
 display:none;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-2 .app {
@@ -874,13 +874,13 @@ height:514px;
 position:absolute;
 top:123px;
 left:59px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-8.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-8.png) no-repeat;
 }
 
 .sh-container .section-04 .item-2 .txt {
 width:510px;
 height:345px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-9.png?132) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-9.png?132) no-repeat;
 }
 
 .sh-container .section-04 .item-2 .circle {
@@ -889,7 +889,7 @@ height:264px;
 position:absolute;
 top:538px;
 right:-113px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle.png) no-repeat;
 -webkit-animation:sh-ripple 2s ease infinite;
 -moz-animation:sh-ripple 2s ease infinite;
 -o-animation:sh-ripple 2s ease infinite;
@@ -898,7 +898,7 @@ animation:sh-ripple 2s ease infinite;
 
 .sh-container .section-04 .item-3 {
 display:none;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-3 .app {
@@ -907,7 +907,7 @@ height:514px;
 position:absolute;
 top:123px;
 left:59px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-11.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-11.png) no-repeat;
 }
 
 .sh-container .section-04 .item-3 .shake {
@@ -917,7 +917,7 @@ height:228px;
 position:absolute;
 top:575px;
 right:-115px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-shake.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-shake.png) no-repeat;
 -webkit-animation:sh-shake 1s ease infinite;
 -moz-animation:sh-shake 1s ease infinite;
 -o-animation:sh-shake 1s ease infinite;
@@ -927,7 +927,7 @@ animation:sh-shake 1s ease infinite;
 .sh-container .section-04 .item-3 .txt {
 width:690px;
 height:344px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-10.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-10.png) no-repeat;
 }
 
 .sh-container .section-05 .container .content {
@@ -954,7 +954,7 @@ width:414px;
 height:613px;
 left:50%;
 margin-left:-192px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-12.png) -17px 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-12.png) -17px 0;
 z-index:5;
 -webkit-transform:translateY(100%);
 -moz-transform:translateY(100%);
@@ -967,7 +967,7 @@ width:282px;
 height:595px;
 left:50%;
 margin-left:196px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-14.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-14.png) no-repeat;
 z-index:3;
 -webkit-transform:translateX(-100%);
 -moz-transform:translateX(-100%);
@@ -980,7 +980,7 @@ width:286px;
 height:595px;
 left:50%;
 margin-left:-478px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-13.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-13.png) no-repeat;
 z-index:3;
 -webkit-transform:translateX(100%);
 -moz-transform:translateX(100%);
@@ -1075,7 +1075,7 @@ position:absolute;
 top:659px;
 left:-471px;
 z-index:3;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1-hand.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1-hand.png) no-repeat;
 -webkit-transition:all .5s ease-out;
 -moz-transition:all .5s ease-out;
 -o-transition:all .5s ease-out;
@@ -1088,7 +1088,7 @@ left:-223px;
 }
 
 .sh-container .section-06 .unlock-wrap .hand-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2-hand.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2-hand.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .bluetooth {
@@ -1097,7 +1097,7 @@ height:96px;
 position:absolute;
 top:925px;
 left:620px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-bluetooth.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-bluetooth.png) no-repeat;
 z-index:1;
 }
 
@@ -1107,7 +1107,7 @@ height:1152px;
 position:absolute;
 top:240px;
 right:-11px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-phone.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-phone.png) no-repeat;
 z-index:1;
 -webkit-transition:all .5s ease-out;
 -moz-transition:all .5s ease-out;
@@ -1118,7 +1118,7 @@ transition:all .5s ease-out;
 .sh-container .section-06 .unlock-wrap .phone .desktop {
 width:316px;
 height:498px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-lock.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-lock.png) no-repeat;
 -webkit-transition:all .5s ease-out;
 -moz-transition:all .5s ease-out;
 -o-transition:all .5s ease-out;
@@ -1127,11 +1127,11 @@ margin:51px 0 0 55px;
 }
 
 .sh-container .section-06 .unlock-wrap .phone-active-1 .desktop {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-password.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-password.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .phone-active-2 .desktop {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-unlock.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-unlock.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .tip {
@@ -1140,7 +1140,7 @@ height:32px;
 position:absolute;
 top:286px;
 left:645px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-16.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-16.png) no-repeat;
 opacity:0;
 cursor:pointer;
 -webkit-transform:translateX(100%);
@@ -1167,7 +1167,7 @@ height:272px;
 position:absolute;
 top:520px;
 left:810px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-ripple.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-ripple.png) no-repeat;
 z-index:2;
 cursor:pointer;
 -webkit-animation:sh-ripple 2s ease infinite;
@@ -1177,15 +1177,15 @@ animation:sh-ripple 2s ease infinite;
 }
 
 .sh-container .section-06 .unlock-1 {
-background:#25282c url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1.jpg) no-repeat center 0;
+background:#25282c url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1.jpg) no-repeat center 0;
 }
 
 .sh-container .section-06 .unlock-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2.jpg) no-repeat center 0;
 }
 
 .sh-container .section-07 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-2.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-2.jpg) no-repeat center 0;
 }
 
 .sh-container .section-07 .container .content {
@@ -1209,7 +1209,7 @@ height:238px;
 position:absolute;
 top:824px;
 left:805px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-7-1-shake.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-7-1-shake.png) no-repeat;
 -webkit-animation:sh-shake 1s ease infinite;
 -moz-animation:sh-shake 1s ease infinite;
 -o-animation:sh-shake 1s ease infinite;
@@ -1339,15 +1339,15 @@ margin:415px 0 5px;
 }
 
 .sh-container .section-09 .pic-list .item-1 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-9-1.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-9-1.jpg) no-repeat center center;
 }
 
 .sh-container .section-09 .pic-list .item-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-9-2.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-9-2.jpg) no-repeat center center;
 }
 
 .sh-container .section-09 .pic-list .item-3 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-9-3.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-9-3.jpg) no-repeat center center;
 }
 
 .sh-container .section-09 .content {
@@ -1383,7 +1383,7 @@ display:block;
 width:132px;
 height:132px;
 overflow:hidden;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/me-1.jpg) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-1.jpg) no-repeat;
 -webkit-transform:scale(0);
 -moz-transform:scale(0);
 -o-transform:scale(0);
@@ -1435,52 +1435,52 @@ background-position:-2px -404px;
 }
 
 .sh-container .section-10 .bimg-a {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/1.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/1.jpg) no-repeat center center;
 background-color:#dee92f;
 }
 
 .sh-container .section-10 .bimg-b {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/2.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/2.jpg) no-repeat center center;
 background-color:#1bc2ec;
 }
 
 .sh-container .section-10 .bimg-c {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/3.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/3.jpg) no-repeat center center;
 background-color:#d6dadf;
 }
 
 .sh-container .section-10 .bimg-d {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/4.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/4.jpg) no-repeat center center;
 background-color:#ff9013;
 }
 
 .sh-container .section-10 .bimg-e {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/5.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/5.jpg) no-repeat center center;
 background-color:#f66367;
 }
 
 .sh-container .section-10 .bimg-f {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/6.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/6.jpg) no-repeat center center;
 background-color:#1fa5dc;
 }
 
 .sh-container .section-10 .bimg-g {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/7.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/7.jpg) no-repeat center center;
 background-color:#a2b900;
 }
 
 .sh-container .section-10 .bimg-h {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/8.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/8.jpg) no-repeat center center;
 background-color:#2fc0b9;
 }
 
 .sh-container .section-10 .bimg-i {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/9.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/9.jpg) no-repeat center center;
 background-color:#c4c4c4;
 }
 
 .sh-container .section-10 .bimg-j {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/photo/10.jpg) no-repeat center center;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/10.jpg) no-repeat center center;
 background-color:#c4c4c4;
 }
 
@@ -1799,31 +1799,31 @@ padding-top:130px;
 }
 
 .sh-container .section-03 .slide-1 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-1 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app-s.png) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app-s.png) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-2 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app-s.png) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app-s.png) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-3 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-3 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app-s.png) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app-s.png) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-2 .app {
@@ -1839,11 +1839,11 @@ width:147px;
 height:159px;
 top:455px;
 right:140px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle-s.png) no-repeat;
 }
 
 .sh-container .section-04 .item-3 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-3 .app {
@@ -1859,7 +1859,7 @@ width:123px;
 height:123px;
 top:475px;
 right:153px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-shake-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-shake-s.png) no-repeat;
 }
 
 .sh-container .section-05 .container .pic-1 {
@@ -1899,11 +1899,11 @@ width:820px;
 height:488px;
 left:-237px;
 top:377px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1-hand-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1-hand-s.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .hand-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2-hand-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2-hand-s.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .hand-active {
@@ -1916,18 +1916,18 @@ width:315px;
 height:772px;
 top:113px;
 right:0;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-phone-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-phone-s.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .phone .desktop {
 width:199px;
 height:314px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-lock-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-lock-s.png) no-repeat;
 margin:33px 0 0 34px;
 }
 
 .sh-container .section-06 .unlock-wrap .phone-active-1 .desktop {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-password-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-password-s.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .phone-active-2 .desktop {
@@ -1966,7 +1966,7 @@ top:105px;
 .sh-container .section-07 .container .shake {
 width:159px;
 height:177px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-7-1-shake-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-7-1-shake-s.png) no-repeat;
 top:440px;
 left:555px;
 }
@@ -2041,35 +2041,35 @@ padding-top:130px;
 }
 
 .sh-container .section-03 .slide-1 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-1 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app-s.png) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app-s.png) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-2 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app-s.png) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app-s.png) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-3 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-3 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app-s.png) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app-s.png) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-1 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-2 .circle {
@@ -2077,11 +2077,11 @@ width:147px;
 height:159px;
 top:455px;
 right:300px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle-s.png) no-repeat;
 }
 
 .sh-container .section-04 .item-3 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-3 .shake {
@@ -2150,7 +2150,7 @@ top:105px;
 .sh-container .section-07 .container .shake {
 width:159px;
 height:177px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-7-1-shake-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-7-1-shake-s.png) no-repeat;
 top:440px;
 left:710px;
 }
@@ -2256,31 +2256,31 @@ padding-top:130px;
 }
 
 .sh-container .section-03 .slide-1 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-1 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app-s.png) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app-s.png) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-2 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app-s.png) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app-s.png) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-3 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-03 .slide-3 .app {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app-s.png) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app-s.png) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-1 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-1 .txt {
@@ -2290,7 +2290,7 @@ background-size:370px;
 }
 
 .sh-container .section-04 .item-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-2 .app {
@@ -2306,11 +2306,11 @@ width:147px;
 height:159px;
 top:455px;
 right:140px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle-s.png) no-repeat;
 }
 
 .sh-container .section-04 .item-3 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-s.jpg) no-repeat center 0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-s.jpg) no-repeat center 0;
 }
 
 .sh-container .section-04 .item-3 .app {
@@ -2327,7 +2327,7 @@ width:123px;
 height:123px;
 top:475px;
 right:153px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-shake-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-shake-s.png) no-repeat;
 }
 
 .sh-container .section-05 .container .content {
@@ -2394,11 +2394,11 @@ width:820px;
 height:488px;
 left:-237px;
 top:377px;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1-hand-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1-hand-s.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .hand-2 {
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2-hand-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2-hand-s.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .hand-active {
@@ -2411,7 +2411,7 @@ width:315px;
 height:772px;
 top:113px;
 right:0;
-background:url(//global.mifile.cn/webfile/globalimg/common/wristband/sh-6-phone-s.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-phone-s.png) no-repeat;
 }
 
 .sh-container .section-06 .unlock-wrap .phone .desktop {

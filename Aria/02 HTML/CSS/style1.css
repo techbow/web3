@@ -435,7 +435,7 @@ border-radius:12px;
 .icon-common {
 display:inline;
 zoom:1;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/main/icon-common-newyear.png?2013122401);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/icon-common-newyear.png?2013122401);
 background-repeat:no-repeat;
 }
 
@@ -628,7 +628,7 @@ background-position:-242px -34px;
 .icon-goods-add {
 width:12px;
 height:12px;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/main/icon-goods-list.png?2013092302);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/icon-goods-list.png?2013092302);
 background-position:-24px 0;
 margin:0 3px -1px 0;
 }
@@ -639,7 +639,7 @@ top:0;
 width:16px;
 height:16px;
 margin-right:2px;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/main/icon-goods-list.png?2013092302);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/icon-goods-list.png?2013092302);
 background-position:-36px 0;
 }
 
@@ -648,7 +648,7 @@ width:20px;
 height:14px;
 margin-right:3px;
 margin-bottom:-2px;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/main/icon-goods-list.png?2013092302);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/icon-goods-list.png?2013092302);
 background-position:0 -24px;
 }
 
@@ -742,7 +742,7 @@ width:50px;
 height:40px;
 text-indent:-9999em;
 overflow:hidden;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/main/icon-saleoff.png?140218);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/icon-saleoff.png?140218);
 background-repeat:no-repeat;
 }
 
@@ -842,7 +842,7 @@ width:85px;
 height:14px;
 text-indent:-9999em;
 overflow:hidden;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/main/icon-stat.png);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/icon-stat.png);
 background-repeat:no-repeat;
 }
 
@@ -897,7 +897,7 @@ width:41px;
 height:69px;
 text-indent:-9999em;
 overflow:hidden;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/main/icon-slides.png);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/icon-slides.png);
 background-repeat:no-repeat;
 _filter:alpha(opacity=40);
 }
@@ -1099,22 +1099,22 @@ position:relative;
 
 .focus .xmSlide_01 {
 height:550px;
-background:#004799 url(//global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focusEn01.jpg?v2) no-repeat center top;
+background:#004799 url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focusEn01.jpg?v2) no-repeat center top;
 }
 
 .focus .xmSlide_note {
 height:550px;
-background:#ffdb3d url(//global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focusEnNote.jpg) no-repeat center top;
+background:#ffdb3d url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focusEnNote.jpg) no-repeat center top;
 }
 
 .focus .xmSlide_03 {
 height:550px;
-background:#cbd5e2 url(//global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focusEn03.jpg?v2) no-repeat center top;
+background:#cbd5e2 url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focusEn03.jpg?v2) no-repeat center top;
 }
 
 .focus .xmSlide_powerbank {
 height:550px;
-background:#d4d5d9 url(//global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focusEnPowerbank.jpg) no-repeat center top;
+background:#d4d5d9 url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focusEnPowerbank.jpg) no-repeat center top;
 }
 
 .focus .xmSlide-pagination {
@@ -1153,7 +1153,7 @@ display:block;
 top:230px;
 width:24px;
 height:47px;
-background:url(//global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focus_arrow.png) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/comm/focus_arrow.png) no-repeat;
 text-indent:-9999px;
 z-index:1000;
 }
@@ -1201,7 +1201,7 @@ padding:0;
 }
 
 .info_content .info_con1 {
-background:url(//global.mifile.cn/webfile/globalimg/en/2014/zt/xminfo_1.jpg) no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/en/2014/zt/xminfo_1.jpg) no-repeat;
 }
 
 .info_content .info_con1 .text {
@@ -1209,7 +1209,7 @@ margin-top:425px;
 }
 
 .info_content .info_con2 {
-background:url(//global.mifile.cn/webfile/globalimg/en/2014/zt/xminfo_2.jpg) 0 50px no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/en/2014/zt/xminfo_2.jpg) 0 50px no-repeat;
 height:490px;
 }
 
@@ -1221,7 +1221,7 @@ right:0;
 }
 
 .info_content .info_con3 {
-background:url(//global.mifile.cn/webfile/globalimg/en/2014/zt/xminfo_3.jpg) 695px 50px no-repeat;
+background:url(http://global.mifile.cn/webfile/globalimg/en/2014/zt/xminfo_3.jpg) 695px 50px no-repeat;
 height:295px;
 }
 
@@ -1235,7 +1235,7 @@ left:30px;
 .xmEn_titImg {
 height:530px;
 margin-top:-1px;
-background:#161515 url(//global.mifile.cn/webfile/globalimg/en/2014/zt/xmEn_3.jpg) center top no-repeat;
+background:#161515 url(http://global.mifile.cn/webfile/globalimg/en/2014/zt/xmEn_3.jpg) center top no-repeat;
 }
 
 .xmEn_content {
@@ -1302,15 +1302,15 @@ margin:0 0 0 62px;
 }
 
 .contact .address dl.address_hk {
-background:#fff url(//global.mifile.cn/webfile/globalimg/sg/2014/main/comm/address_hk.jpg) center top no-repeat;
+background:#fff url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/comm/address_hk.jpg) center top no-repeat;
 }
 
 .contact .address dl.address_sg {
-background:#fff url(//global.mifile.cn/webfile/globalimg/sg/2014/main/comm/address_sg.jpg) center top no-repeat;
+background:#fff url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/comm/address_sg.jpg) center top no-repeat;
 }
 
 .contact .address dl.address_tw {
-background:#fff url(//global.mifile.cn/webfile/globalimg/sg/2014/main/comm/address_tw.jpg) center top no-repeat;
+background:#fff url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/comm/address_tw.jpg) center top no-repeat;
 }
 
 .contact .address dt {
@@ -1417,7 +1417,7 @@ width:30px;
 height:7px;
 margin-left:-15px;
 _font-size:0;
-background:url(//global.mifile.cn/webfile/globalimg/zh/2014/icon/user-menu-arrow.png) no-repeat 50% 0;
+background:url(http://global.mifile.cn/webfile/globalimg/zh/2014/icon/user-menu-arrow.png) no-repeat 50% 0;
 }
 
 .site-topbar .container {
@@ -1516,7 +1516,7 @@ position:absolute;
 cursor:pointer;
 top:20px;
 right:0;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/icon/common/iconAll.png?140419);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/icon/common/iconAll.png?140419);
 background-position:-97px -90px;
 }
 
@@ -1573,7 +1573,7 @@ display:inline-block;
 width:25px;
 height:22px;
 background-repeat:no-repeat;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/icon/common/iconAll.png);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/icon/common/iconAll.png);
 background-position:-109px -66px;
 }
 
@@ -1582,7 +1582,7 @@ display:inline-block;
 width:50px;
 height:50px;
 background-repeat:no-repeat;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/icon/common/iconAll.png);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/icon/common/iconAll.png);
 background-position:-8px -8px;
 }
 
@@ -1741,7 +1741,7 @@ position:absolute;
 top:7px;
 right:20px;
 border-radius:12px;
-background:#ffdd8c url(//global.mifile.cn/webfile/globalimg/sg/2014/main/headclose.png) no-repeat;
+background:#ffdd8c url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/headclose.png) no-repeat;
 cursor:pointer;
 }
 
@@ -1884,7 +1884,7 @@ width:186px;
 height:38px;
 background-repeat:no-repeat;
 background-position:92% 50%;
-background-image:url(//global.mifile.cn/webfile/globalimg/sg/2014/main/newindex/sg_10.png);
+background-image:url(http://global.mifile.cn/webfile/globalimg/sg/2014/main/newindex/sg_10.png);
 cursor:pointer;
 z-index:3;
 padding-left:12px;
@@ -1988,7 +1988,7 @@ background-image:linear-gradient(toleft,#fff20%,rgba(255,255,255,0));
 .xm-dm-queue .mitu-walk {
 width:450px;
 height:200px;
-background:url(//global.mifile.cn/webfile/globalimg/en/2014/open/animate-mitu.png) repeat-x 0;
+background:url(http://global.mifile.cn/webfile/globalimg/en/2014/open/animate-mitu.png) repeat-x 0;
 margin:10px auto 0;
 }
 
@@ -2001,7 +2001,7 @@ margin-top:-250px;
 
 .xm-dm-error .modal-body {
 height:360px;
-background:url(//global.mifile.cn/webfile/globalimg/en/2014/open/mitu-2.png) no-repeat 5px 0;
+background:url(http://global.mifile.cn/webfile/globalimg/en/2014/open/mitu-2.png) no-repeat 5px 0;
 padding:140px 50px 0 385px;
 }
 
@@ -2047,7 +2047,7 @@ margin-top:12px;
 float:left;
 height:25px;
 width:26px;
-background:#8c8c8c url(//global.mifile.cn/webfile/globalimg/en/2014/comm/social_logo.png) no-repeat;
+background:#8c8c8c url(http://global.mifile.cn/webfile/globalimg/en/2014/comm/social_logo.png) no-repeat;
 text-indent:-9999px;
 margin:0 5px 0 0;
 }
