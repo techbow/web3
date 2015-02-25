@@ -23,12 +23,13 @@ web003yi<br>
 web003yiyu<br>
 web003yuye<br>
 web003yuzhong<br>
+web003ying<br>
 密码：在第二次课程里的微信群里公布<br>
 网站访问方式：http://zizuo.us/用户名<br>
 <br>
 2. wordpress练习<br>
 wp访问方式：http://zizuo.us/用户名/wp<br>
-wp后台访问：http://Zizuo.us/用户名/wp/wp-admin<br>
+wp后台访问：http://zizuo.us/用户名/wp/wp-admin<br>
 用户名密码同上<br>
 Demo 的theme 在 dropbox链接 里找bridge.zip<br>
 <br>
