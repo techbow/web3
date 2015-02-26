@@ -5,12 +5,11 @@
 	margin-right: auto;
 	padding: 30px 40px 30px 40px;
 	background-color: #9b59b6;
+    color:white;
 	
 }
 
-.page p{
-	color:white;
-}
+
 
 .head{
 	height: 90px;
@@ -63,7 +62,9 @@
 #num1, #num2, #num3, #num4{
 	position: relative;
 	float:left;
+	font-family: Arial;
 	font-size: 80px;
+	font-weight: lighter;
 	margin-top: 5px;
 
 }
