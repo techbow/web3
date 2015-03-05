@@ -1,0 +1,2512 @@
+@font-face {
+font-family:FZLTXHK;
+src:url(data:application/x-font-ttf;charset=utf-8;base64,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) format(truetype);
+}
+
+.xm-product-box {
+font-family:FZLTXHK;
+}
+
+100% {
+background-position:0 0;
+-webkit-transform:translate(0,0);
+-moz-transform:translate(0,0);
+-o-transform:translate(0,0);
+transform:translate(0,0);
+opacity:1;
+}
+
+3%,9%,15% {
+-webkit-transform:translateY(-5px);
+-moz-transform:translateY(-5px);
+transform:translateY(-5px);
+}
+
+6%,12%,20% {
+-webkit-transform:translateY(5px);
+-moz-transform:translateY(5px);
+transform:translateY(5px);
+}
+
+.animation-sh-txt {
+display:block;
+-webkit-animation:sh-txt .5s ease-out;
+-moz-animation:sh-txt .5s ease-out;
+-o-animation:sh-txt .5s ease-out;
+animation:sh-txt .5s ease-out;
+}
+
+.site-topbar {
+-webkit-transition:all 500ms cubic-bezier(0.445,0.05,0.55,0.95);
+-moz-transition:all 500ms cubic-bezier(0.445,0.05,0.55,0.95);
+-o-transition:all 500ms cubic-bezier(0.445,0.05,0.55,0.95);
+transition:all 500ms cubic-bezier(0.445,0.05,0.55,0.95);
+margin-top:-81px;
+height:auto;
+}
+
+.site-topbar.showfooter-1 {
+margin-top:-470px;
+}
+
+.showheader.site-topbar {
+margin-top:0;
+}
+
+.site-topbar .top {
+z-index:130;
+}
+
+.num {
+-webkit-transition:all .5s ease-out;
+-moz-transition:all .5s ease-out;
+-o-transition:all .5s ease-out;
+transition:all .5s ease-out;
+}
+
+.num-1 {
+display:inline-block;
+width:32px;
+height:52px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/num-1.png) no-repeat;
+}
+
+.num-1-1 {
+background-position:0 -52px;
+}
+
+.num-1-2 {
+background-position:0 -104px;
+}
+
+.num-1-3 {
+background-position:0 -156px;
+}
+
+.num-1-4 {
+background-position:0 -208px;
+}
+
+.num-1-5 {
+background-position:0 -260px;
+}
+
+.num-1-6 {
+background-position:0 -312px;
+}
+
+.num-1-7 {
+background-position:0 -364px;
+}
+
+.num-1-8 {
+background-position:0 -416px;
+}
+
+.num-1-9 {
+background-position:0 -468px;
+}
+
+.num-2 {
+display:inline-block;
+width:32px;
+height:52px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/num-2.png) no-repeat;
+}
+
+.num-2-1 {
+background-position:0 -51px;
+}
+
+.num-2-2 {
+height:51px;
+background-position:0 -103px;
+}
+
+.num-2-3 {
+height:53px;
+background-position:0 -154px;
+}
+
+.num-2-4 {
+height:51px;
+background-position:0 -207px;
+}
+
+.num-2-5 {
+background-position:0 -258px;
+}
+
+.num-2-6 {
+height:51px;
+background-position:0 -310px;
+}
+
+.num-2-7 {
+background-position:0 -361px;
+}
+
+.num-2-8 {
+background-position:0 -412px;
+}
+
+.num-2-9 {
+background-position:0 -464px;
+}
+
+.num-3 {
+display:inline-block;
+width:13px;
+height:37px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/num-3.png) no-repeat;
+}
+
+.num-3-0 {
+background-position:0 1px;
+}
+
+.num-3-1 {
+background-position:0 -37px;
+}
+
+.num-3-2 {
+background-position:0 -75px;
+}
+
+.num-3-3 {
+background-position:0 -111px;
+}
+
+.num-3-4 {
+background-position:0 -148px;
+}
+
+.num-3-5 {
+background-position:0 -184px;
+}
+
+.num-3-6 {
+background-position:0 -222px;
+}
+
+.num-3-7 {
+background-position:0 -259px;
+}
+
+.num-3-8 {
+background-position:0 -296px;
+}
+
+.num-3-9 {
+background-position:0 -333px;
+}
+
+.sh-bar .container,.sh-container .container,.specs-main .container,.sh-footer .container {
+width:1240px;
+}
+
+h2,h3 {
+font-weight:400;
+}
+
+.xm-product-box .hd {
+border-bottom:1px solid #ededed;
+-webkit-border-top-left-radius:4px;
+-moz-border-radius-topleft:4px;
+border-top-left-radius:4px;
+-webkit-border-top-right-radius:4px;
+-moz-border-radius-topright:4px;
+border-top-right-radius:4px;
+}
+
+.xm-product-box .ft {
+border-top:1px solid #ededed;
+-webkit-border-bottom-left-radius:4px;
+-moz-border-radius-bottomleft:4px;
+border-bottom-left-radius:4px;
+-webkit-border-bottom-right-radius:4px;
+-moz-border-radius-bottomright:4px;
+border-bottom-right-radius:4px;
+}
+
+.xm-product-box .nav-bar {
+margin-top:15px;
+position:relative;
+height:50px;
+color:#333;
+background:#fff;
+}
+
+.xm-product-box .nav-bar .title {
+float:left;
+_display:inline;
+margin:10px 0 0;
+}
+
+.xm-product-box .nav-bar .title h2 {
+font-size:18px;
+font-weight:400;
+line-height:30px;
+color:#333;
+margin:0;
+}
+
+.xm-product-box .nav-bar .title small {
+font-size:12px;
+}
+
+.xm-product-box .nav-bar .nav {
+float:right;
+_display:inline;
+margin:10px 0 0;
+}
+
+.xm-product-box .nav-bar .nav .nav-switch {
+margin-right:10px;
+line-height:30px;
+}
+
+.xm-product-box .nav-switch .separator {
+color:#ccd1d9;
+margin:0 5px;
+}
+
+.xm-product-box .nav-switch .tab-active {
+color:#ff6f3d;
+cursor:default;
+}
+
+.xm-product-box .nav-switch .tab-active:hover {
+color:#ff6f3d;
+}
+
+.xm-product-box .separator {
+font-family:sans-serif;
+}
+
+.xm-product-box .btn-disable {
+cursor:default;
+}
+
+.xm-product-box .btn-disable:active {
+background:#333;
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+box-shadow:none;
+}
+
+.specs-main {
+background-color:#fff;
+margin:0 auto;
+}
+
+.specs-main .specs-list {
+border-bottom:1px solid #d0d0d0;
+padding:60px 0;
+}
+
+.specs-main .specs-left {
+float:left;
+display:inline;
+width:215px;
+}
+
+.specs-main .specs-left .list-title {
+font-size:24px;
+line-height:1;
+font-weight:400;
+color:#545050;
+margin:0;
+padding:0;
+}
+
+.specs-main .specs-right {
+float:right;
+display:inline;
+width:714px;
+}
+
+.specs-main .specs-right .space-subject img {
+margin-top:20px;
+margin-bottom:50px;
+}
+
+.specs-main .specs-right .space-subject img.last {
+margin-bottom:0;
+}
+
+.specs-main .specs-right .cover-color {
+position:relative;
+height:164px;
+}
+
+.specs-main .specs-right .cover-color .cover-color-img {
+position:absolute;
+left:0;
+top:70px;
+}
+
+.specs-main .specs-right .cover-text {
+padding-top:50px;
+padding-right:40px;
+background:#fff url(http://global.mifile.cn/webfile/globalimg/common/wristbandspecs-main-04.jpg) 50% 0 no-repeat;
+text-align:center;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn ul {
+list-style-type:none;
+margin:0;
+padding:0 0 0 135px;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn li {
+float:left;
+display:inline;
+margin-right:30px;
+width:46px;
+height:46px;
+line-height:46px;
+-webkit-border-radius:23px;
+-moz-border-radius:23px;
+border-radius:23px;
+background:#fff;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn li:hover {
+background:#dfdfdf;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn li.choose {
+background:#454a50;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn li span {
+display:inline;
+zoom:1;
+-webkit-border-radius:20px;
+-moz-border-radius:20px;
+border-radius:20px;
+width:40px;
+height:40px;
+cursor:pointer;
+margin:3px;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn li .color-btn-2 {
+background:#319ae9;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn li .color-btn-3 {
+background:#42d8ba;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn li .color-btn-4 {
+background:#ea6e34;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn li .color-btn-5 {
+background:#ee6272;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn li .color-btn-6 {
+background:#b6d240;
+}
+
+.specs-main .specs-right .specs-acc ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.specs-main .specs-right .specs-acc li {
+float:left;
+display:inline;
+text-align:center;
+}
+
+.specs-main .specs-right .specs-acc li .text {
+display:inline;
+zoom:1;
+width:150px;
+height:160px;
+margin-top:60px;
+margin-right:60px;
+line-height:160px;
+font-size:14px;
+color:#545050;
+border:1px solid #646161;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+}
+
+.specs-main .specs-right .specs-acc li .acc-img {
+margin-bottom:25px;
+}
+
+.specs-main .specs-right .specs-acc .acc-item1 {
+margin-right:180px;
+}
+
+.specs-main .specs-right .specs-acc .acc-item2 {
+margin-right:130px;
+}
+
+.specs-main .specs-right .specs-acc .acc-item3 {
+margin-right:60px;
+}
+
+.sh-bar {
+height:59px;
+border-bottom:1px solid #dfdfdf;
+background:#fff;
+z-index:110;
+position:relative;
+width:100%;
+margin:0 auto;
+}
+
+.sh-bar h2 {
+float:left;
+line-height:56px;
+font-size:24px;
+font-weight:400;
+margin:0;
+}
+
+.sh-bar .nav {
+float:right;
+height:30px;
+margin:13px 0 0;
+}
+
+.sh-bar .nav li {
+float:left;
+line-height:30px;
+cursor:pointer;
+margin:0 10px;
+}
+
+.sh-bar .nav .btn-small {
+height:24px;
+line-height:24px;
+width:auto;
+color:#fff;
+margin-top:-10px;
+margin-left:20px;
+padding:0 12px;
+}
+
+.sh-bar.initpos {
+position:fixed;
+top:0;
+opacity:0;
+-webkit-transform:translate3d(0,-57px,0px);
+-moz-transform:translate3d(0,-57px,0px);
+-o-transform:translate3d(0,-57px,0px);
+transform:translate3d(0,-57px,0px);
+}
+
+.sh-bar.shownow {
+-webkit-transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+-moz-transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+-o-transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+opacity:1;
+-webkit-transform:translate3d(0,0px,0px);
+-moz-transform:translate3d(0,0px,0px);
+-o-transform:translate3d(0,0px,0px);
+transform:translate3d(0,0px,0px);
+}
+
+.sh-bar-fixed {
+width:100%;
+position:fixed;
+top:0;
+left:0;
+}
+
+.sh-container .section {
+position:relative;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+overflow:hidden;
+}
+
+.sh-container .section .container {
+position:relative;
+color:#6a727a;
+height:100%;
+}
+
+.sh-container .section .container .content {
+position:absolute;
+top:0;
+left:0;
+}
+
+.sh-container .section-01 .container {
+width:100%;
+}
+
+.sh-container .section-01 .container .video-box {
+text-align:center;
+}
+
+.sh-container .section-01 .container .video-box video {
+display:block \9;
+background:#fff;
+width:1240px;
+position:relative;
+top:50px;
+margin:0 auto;
+}
+
+.sh-container .section-01 .container .video-box img {
+display:block;
+width:1240px;
+margin:150px auto;
+}
+
+.sh-container .section-01 .container .content {
+-webkit-transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+-moz-transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+-o-transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+opacity:0;
+text-align:center;
+z-index:10;
+position:absolute;
+left:50%;
+width:700px;
+margin-left:-350px;
+top:650px;
+}
+
+.sh-container .section-01 .container .content h1 {
+font-size:50px;
+font-weight:400;
+line-height:normal;
+margin:0;
+}
+
+.sh-container .section-01 .container .content p {
+line-height:normal;
+margin:0;
+}
+
+.sh-container .section-01 .container .content .sub {
+margin-bottom:30px;
+margin-top:10px;
+line-height:30px;
+font-size:24px;
+}
+
+.sh-container .section-01 .container .content .price {
+margin-bottom:30px;
+font-size:30px;
+}
+
+.sh-container .section-01 .container .content .tip {
+color:#6d6d6d;
+}
+
+.sh-container .section-01 .mouse-down {
+display:block;
+width:11px;
+height:24px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/mouse-down.png) repeat-y;
+position:absolute;
+left:50%;
+margin-left:-5px;
+bottom:70px;
+cursor:pointer;
+-webkit-animation:sh-mousedown 2s linear infinite;
+-moz-animation:sh-mousedown 2s linear infinite;
+-o-animation:sh-mousedown 2s linear infinite;
+animation:sh-mousedown 2s linear infinite;
+opacity:0;
+-webkit-transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+-moz-transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+-o-transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+transition:all 900ms cubic-bezier(0.455,0.03,0.515,0.955);
+}
+
+.sh-container .section-01.text-show .container .content {
+opacity:1;
+-webkit-transform:translate3d(0,10px,0);
+-moz-transform:translate3d(0,10px,0);
+-o-transform:translate3d(0,10px,0);
+transform:translate3d(0,10px,0);
+}
+
+.sh-container .section-02 .circle-box {
+width:100%;
+height:965px;
+position:absolute;
+top:100px;
+left:50%;
+margin-left:-620px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-15.jpg) no-repeat center 0;
+}
+
+.sh-container .section-02 .container .content {
+width:100%;
+top:310px;
+left:0;
+text-align:center;
+color:#fff;
+}
+
+.sh-container .section-02 .container .content p {
+font-size:14px;
+line-height:1.8;
+}
+
+.sh-container .section-02 .container .time {
+width:282px;
+position:absolute;
+top:740px;
+left:50%;
+margin-left:-141px;
+}
+
+.sh-container .section-02 .container .time span {
+float:left;
+margin:0 3px;
+}
+
+.sh-container .section-02 .container .time .colon {
+display:inline-block;
+width:9px;
+height:52px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/colon.png) no-repeat center bottom;
+margin:0 5px;
+}
+
+.sh-container .section-02 .container .time .am {
+display:inline-block;
+width:29px;
+height:15px;
+position:relative;
+top:-15px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/am.png) no-repeat;
+}
+
+.sh-container .section-03 .slide {
+height:100%;
+}
+
+.sh-container .section-03 .slide .container {
+position:relative;
+}
+
+.sh-container .section-03 .slide .txt {
+height:160px;
+position:absolute;
+top:148px;
+right:0;
+}
+
+.sh-container .section-03 .slide .app {
+width:306px;
+height:514px;
+position:absolute;
+top:123px;
+left:59px;
+}
+
+.sh-container .section-03 .slide .app .con {
+padding-top:185px;
+text-align:center;
+color:#fff;
+font-size:12px;
+}
+
+.sh-container .section-03 .slide .app .con p {
+margin:0;
+}
+
+.sh-container .section-03 .slide .app .con .num-box {
+padding:5px 0 3px;
+}
+
+.sh-container .section-03 .slide-1 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-1 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app.png) no-repeat;
+}
+
+.sh-container .section-03 .slide-1 .txt {
+width:260px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-4.png) no-repeat;
+}
+
+.sh-container .section-03 .slide-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-2 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app.png) no-repeat;
+}
+
+.sh-container .section-03 .slide-2 .txt {
+width:277px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/christ/me-17.png) no-repeat;
+}
+
+.sh-container .section-03 .slide-3 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-3 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app.png) no-repeat;
+}
+
+.sh-container .section-03 .slide-3 .txt {
+width:360px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-6.png) no-repeat;
+}
+
+.sh-container .section-03 .tabs {
+width:480px;
+height:38px;
+border:1px solid #fff;
+border-radius:5px;
+position:absolute;
+left:50%;
+margin-left:-240px;
+bottom:55px;
+background:rgba(0,0,0,0.5);
+overflow:hidden;
+z-index:10;
+}
+
+.sh-container .section-03 .tabs .item {
+float:left;
+width:160px;
+height:38px;
+margin-left:-1px;
+line-height:38px;
+border-left:1px solid #fff;
+color:#fff;
+font-size:16px;
+text-align:center;
+cursor:pointer;
+}
+
+.sh-container .section-03 .tabs .current {
+background:rgba(255,255,255,0.3);
+}
+
+.sh-container .section-04 .item .txt {
+position:absolute;
+top:134px;
+right:0;
+}
+
+.sh-container .section-04 .item-1 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-1 .txt {
+width:420px;
+height:118px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-7.png) no-repeat;
+}
+
+.sh-container .section-04 .item-1 .bulb {
+width:353px;
+height:353px;
+position:absolute;
+top:50%;
+left:50%;
+margin-top:-177px;
+margin-left:-177px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-bulb.png) no-repeat;
+cursor:pointer;
+}
+
+.sh-container .section-04 .item-1 .bulb .dot {
+display:block;
+width:11px;
+height:11px;
+position:absolute;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-dot.png) no-repeat;
+}
+
+.sh-container .section-04 .item-1 .bulb .dot-1 {
+top:154px;
+left:115px;
+}
+
+.sh-container .section-04 .item-1 .bulb .dot-2 {
+top:106px;
+left:130px;
+}
+
+.sh-container .section-04 .item-1 .bulb .dot-3 {
+top:88px;
+left:176px;
+}
+
+.sh-container .section-04 .item-1 .bulb .dot-4 {
+top:106px;
+left:218px;
+}
+
+.sh-container .section-04 .item-1 .bulb .dot-5 {
+top:154px;
+left:233px;
+}
+
+.sh-container .section-04 .item-2 {
+display:none;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-2 .app {
+width:306px;
+height:514px;
+position:absolute;
+top:123px;
+left:59px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-8.png) no-repeat;
+}
+
+.sh-container .section-04 .item-2 .txt {
+width:510px;
+height:345px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-9.png) no-repeat;
+}
+
+.sh-container .section-04 .item-2 .circle {
+width:243px;
+height:264px;
+position:absolute;
+top:538px;
+right:-113px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle.png) no-repeat;
+-webkit-animation:sh-ripple 2s ease infinite;
+-moz-animation:sh-ripple 2s ease infinite;
+-o-animation:sh-ripple 2s ease infinite;
+animation:sh-ripple 2s ease infinite;
+}
+
+.sh-container .section-04 .item-3 {
+display:none;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-3 .app {
+width:306px;
+height:514px;
+position:absolute;
+top:123px;
+left:59px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-11.png) no-repeat;
+}
+
+.sh-container .section-04 .item-3 .shake {
+display:block;
+width:231px;
+height:228px;
+position:absolute;
+top:575px;
+right:-115px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-shake.png) no-repeat;
+-webkit-animation:sh-shake 1s ease infinite;
+-moz-animation:sh-shake 1s ease infinite;
+-o-animation:sh-shake 1s ease infinite;
+animation:sh-shake 1s ease infinite;
+}
+
+.sh-container .section-04 .item-3 .txt {
+width:690px;
+height:344px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-10.png) no-repeat;
+}
+
+.sh-container .section-05 .container .content {
+width:100%;
+text-align:center;
+color:#545050;
+top:140px;
+}
+
+.sh-container .section-05 .container .content h3 {
+font-size:40px;
+line-height:52px;
+margin:0 0 20px;
+}
+
+.sh-container .section-05 .container .pic {
+position:absolute;
+bottom:0;
+opacity:0;
+}
+
+.sh-container .section-05 .container .pic-1 {
+width:414px;
+height:613px;
+left:50%;
+margin-left:-192px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-12.png) -17px 0;
+z-index:5;
+-webkit-transform:translateY(100%);
+-moz-transform:translateY(100%);
+-o-transform:translateY(100%);
+transform:translateY(100%);
+}
+
+.sh-container .section-05 .container .pic-2 {
+width:282px;
+height:595px;
+left:50%;
+margin-left:196px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-14.png) no-repeat;
+z-index:3;
+-webkit-transform:translateX(-100%);
+-moz-transform:translateX(-100%);
+-o-transform:translateX(-100%);
+transform:translateX(-100%);
+}
+
+.sh-container .section-05 .container .pic-3 {
+width:286px;
+height:595px;
+left:50%;
+margin-left:-478px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-13.png) no-repeat;
+z-index:3;
+-webkit-transform:translateX(100%);
+-moz-transform:translateX(100%);
+-o-transform:translateX(100%);
+transform:translateX(100%);
+}
+
+.sh-container .section-05 .container .pic-1-active {
+-webkit-transition:all .6s ease-out;
+-moz-transition:all .6s ease-out;
+-o-transition:all .6s ease-out;
+transition:all .6s ease-out;
+-webkit-transform:translateY(0);
+-moz-transform:translateY(0);
+-o-transform:translateY(0);
+transform:translateY(0);
+opacity:1;
+}
+
+.sh-container .section-05 .container .pic-2-active,.sh-container .section-05 .container .pic-3-active {
+-webkit-transition:all .5s 1s ease-out;
+-moz-transition:all .5s 1s ease-out;
+-o-transition:all .5s 1s ease-out;
+transition:all .5s 1s ease-out;
+-webkit-transform:translateX(0);
+-moz-transform:translateX(0);
+-o-transform:translateX(0);
+transform:translateX(0);
+opacity:1;
+}
+
+.sh-container .section-06 .unlock-wrap .content {
+top:215px;
+color:#fff;
+}
+
+.sh-container .section-06 .unlock-wrap .content h3 {
+font-size:40px;
+line-height:52px;
+font-weight:400;
+margin:0 0 15px;
+}
+
+.sh-container .section-06 .unlock-wrap .content p {
+font-size:16px;
+}
+
+.sh-container .section-06 .unlock-wrap .content p span {
+display:inline-block;
+margin-top:10px;
+font-size:14px;
+color:#58626e;
+}
+
+.sh-container .section-06 .unlock-wrap .tabs {
+position:absolute;
+top:474px;
+left:0;
+width:306px;
+height:38px;
+border:1px solid #fff;
+border-radius:5px;
+overflow:hidden;
+z-index:10;
+}
+
+.sh-container .section-06 .unlock-wrap .tabs .item {
+float:left;
+width:153px;
+height:38px;
+text-align:center;
+line-height:38px;
+border-left:1px solid #fff;
+margin-left:-1px;
+color:#fff;
+background:rgba(36,39,43,0.3);
+cursor:pointer;
+-webkit-transition:all .3s ease-out;
+-moz-transition:all .3s ease-out;
+-o-transition:all .3s ease-out;
+transition:all .3s ease-out;
+}
+
+.sh-container .section-06 .unlock-wrap .tabs .current {
+background:rgba(0,0,0,0.3);
+}
+
+.sh-container .section-06 .unlock-wrap .hand {
+width:1181px;
+height:695px;
+position:absolute;
+top:659px;
+left:-471px;
+z-index:3;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1-hand.png) no-repeat;
+-webkit-transition:all .5s ease-out;
+-moz-transition:all .5s ease-out;
+-o-transition:all .5s ease-out;
+transition:all .5s ease-out;
+}
+
+.sh-container .section-06 .unlock-wrap .hand-active {
+top:640px;
+left:-223px;
+}
+
+.sh-container .section-06 .unlock-wrap .hand-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2-hand.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .bluetooth {
+width:137px;
+height:96px;
+position:absolute;
+top:925px;
+left:620px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-bluetooth.png) no-repeat;
+z-index:1;
+}
+
+.sh-container .section-06 .unlock-wrap .phone {
+width:501px;
+height:1152px;
+position:absolute;
+top:240px;
+right:-11px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-phone.png) no-repeat;
+z-index:1;
+-webkit-transition:all .5s ease-out;
+-moz-transition:all .5s ease-out;
+-o-transition:all .5s ease-out;
+transition:all .5s ease-out;
+}
+
+.sh-container .section-06 .unlock-wrap .phone .desktop {
+width:316px;
+height:498px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-lock.png) no-repeat;
+-webkit-transition:all .5s ease-out;
+-moz-transition:all .5s ease-out;
+-o-transition:all .5s ease-out;
+transition:all .5s ease-out;
+margin:51px 0 0 55px;
+}
+
+.sh-container .section-06 .unlock-wrap .phone-active-1 .desktop {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-password.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .phone-active-2 .desktop {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-unlock.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .tip {
+width:280px;
+height:32px;
+position:absolute;
+top:286px;
+left:645px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-16.png) no-repeat;
+opacity:0;
+cursor:pointer;
+-webkit-transform:translateX(100%);
+-moz-transform:translateX(100%);
+-o-transform:translateX(100%);
+transform:translateX(100%);
+}
+
+.sh-container .section-06 .unlock-wrap .tip-active {
+-webkit-transition:all .5s ease-out;
+-moz-transition:all .5s ease-out;
+-o-transition:all .5s ease-out;
+transition:all .5s ease-out;
+-webkit-transform:translateX(0);
+-moz-transform:translateX(0);
+-o-transform:translateX(0);
+transform:translateX(0);
+opacity:1;
+}
+
+.sh-container .section-06 .unlock-wrap .ripple {
+width:272px;
+height:272px;
+position:absolute;
+top:520px;
+left:810px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-ripple.png) no-repeat;
+z-index:2;
+cursor:pointer;
+-webkit-animation:sh-ripple 2s ease infinite;
+-moz-animation:sh-ripple 2s ease infinite;
+-o-animation:sh-ripple 2s ease infinite;
+animation:sh-ripple 2s ease infinite;
+}
+
+.sh-container .section-06 .unlock-1 {
+background:#25282c url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1.jpg) no-repeat center 0;
+}
+
+.sh-container .section-06 .unlock-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2.jpg) no-repeat center 0;
+}
+
+.sh-container .section-07 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-2.jpg) no-repeat center 0;
+}
+
+.sh-container .section-07 .container .content {
+position:absolute;
+top:145px;
+right:0;
+color:#fff;
+text-align:right;
+}
+
+.sh-container .section-07 .container .content p span {
+display:block;
+margin-top:8px;
+font-size:14px;
+color:#58626e;
+}
+
+.sh-container .section-07 .container .shake {
+width:214px;
+height:238px;
+position:absolute;
+top:824px;
+left:805px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-7-1-shake.png) no-repeat;
+-webkit-animation:sh-shake 1s ease infinite;
+-moz-animation:sh-shake 1s ease infinite;
+-o-animation:sh-shake 1s ease infinite;
+animation:sh-shake 1s ease infinite;
+}
+
+.sh-container .section-08 .item .tab-wrap .tab-nav {
+height:38px;
+border:1px solid #8f9aa5;
+border-radius:5px;
+position:absolute;
+overflow:hidden;
+z-index:5;
+}
+
+.sh-container .section-08 .item .tab-wrap .tab-nav span {
+float:left;
+width:270px;
+border-left:1px solid #8f9aa5;
+margin-left:-1px;
+line-height:38px;
+text-align:center;
+color:#798591;
+font-size:16px;
+background:#fff;
+cursor:pointer;
+}
+
+.sh-container .section-08 .item .tab-wrap .tab-nav .current {
+background:#f1f4f8;
+}
+
+.sh-container .section-08 .item .tab-wrap .txt-box {
+position:absolute;
+color:#545050;
+z-index:5;
+}
+
+.sh-container .section-08 .item .tab-wrap .txt-box .txt {
+display:none;
+}
+
+.sh-container .section-08 .item .tab-wrap .txt-box .txt-fadeIn {
+display:block;
+}
+
+.sh-container .section-08 .item .tab-wrap .txt-box h3 {
+font-size:40px;
+font-weight:400;
+line-height:normal;
+margin:0 0 15px;
+}
+
+.sh-container .section-08 .item .tab-wrap .video-box {
+position:absolute;
+z-index:3;
+}
+
+.sh-container .section-08 .item .tab-wrap .video-box img {
+height:5px 0;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .tab-nav {
+top:700px;
+left:50px;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .txt-box {
+top:420px;
+left:50px;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .txt-box p {
+width:500px;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .video-box {
+top:240px;
+left:550px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .tab-nav {
+width:810px;
+top:950px;
+left:50%;
+margin-left:-405px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .txt-box {
+width:100%;
+top:800px;
+left:0;
+text-align:center;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .txt-box h3 {
+margin-bottom:5px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .video-box {
+width:100%;
+top:150px;
+left:0;
+}
+
+.sh-container .section-09 .pic-list {
+margin:0;
+padding:57px 0 0;
+}
+
+.sh-container .section-09 .pic-list li {
+float:left;
+width:33.3333%;
+height:563px;
+list-style:0;
+text-align:center;
+color:#fff;
+overflow:hidden;
+margin:0;
+padding:0;
+}
+
+.sh-container .section-09 .pic-list li h3 {
+font-size:26px;
+font-weight:400;
+margin:415px 0 5px;
+}
+
+.sh-container .section-09 .pic-list .item-1 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-9-1.jpg) no-repeat center center;
+}
+
+.sh-container .section-09 .pic-list .item-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-9-2.jpg) no-repeat center center;
+}
+
+.sh-container .section-09 .pic-list .item-3 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-9-3.jpg) no-repeat center center;
+}
+
+.sh-container .section-09 .content {
+width:100%;
+padding-top:55px;
+}
+
+.sh-container .section-09 .content h3 {
+color:#545050;
+font-size:32px;
+text-align:center;
+font-weight:400;
+margin:0 0 35px;
+}
+
+.sh-container .section-09 .content .info {
+width:800px;
+margin:0 auto;
+padding:0;
+}
+
+.sh-container .section-09 .content .info li {
+float:left;
+width:200px;
+list-style:none;
+text-align:center;
+margin:0;
+padding:0;
+}
+
+.sh-container .section-09 .content .info li span {
+display:block;
+width:132px;
+height:132px;
+overflow:hidden;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/me-1.jpg) no-repeat;
+-webkit-transform:scale(0);
+-moz-transform:scale(0);
+-o-transform:scale(0);
+transform:scale(0);
+opacity:0;
+margin:0 auto 28px;
+}
+
+.sh-container .section-09 .content .info li .active {
+-webkit-transition:all .3s .5s ease-out;
+-moz-transition:all .3s .5s ease-out;
+-o-transition:all .3s .5s ease-out;
+transition:all .3s .5s ease-out;
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+transform:scale(1);
+opacity:1;
+}
+
+.sh-container .section-09 .content .info li strong {
+font-size:20px;
+font-weight:400;
+color:#545050;
+height:40px;
+display:block;
+}
+
+.sh-container .section-09 .content .info li p {
+font-size:12px;
+color:#aeafaf;
+margin:5px 0 0;
+}
+
+.sh-container .section-09 .content .info .item-1 span {
+background-position:-4px 0;
+}
+
+.sh-container .section-09 .content .info .item-2 span {
+background-position:-3px -136px;
+}
+
+.sh-container .section-09 .content .info .item-3 span {
+background-position:-5px -269px;
+}
+
+.sh-container .section-09 .content .info .item-4 span {
+background-position:-2px -404px;
+}
+
+.sh-container .section-10 .bimg-a {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/1.jpg) no-repeat center center;
+background-color:#dee92f;
+}
+
+.sh-container .section-10 .bimg-b {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/2.jpg) no-repeat center center;
+background-color:#1bc2ec;
+}
+
+.sh-container .section-10 .bimg-c {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/3.jpg) no-repeat center center;
+background-color:#d6dadf;
+}
+
+.sh-container .section-10 .bimg-d {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/4.jpg) no-repeat center center;
+background-color:#ff9013;
+}
+
+.sh-container .section-10 .bimg-e {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/5.jpg) no-repeat center center;
+background-color:#f66367;
+}
+
+.sh-container .section-10 .bimg-f {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/6.jpg) no-repeat center center;
+background-color:#1fa5dc;
+}
+
+.sh-container .section-10 .bimg-g {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/7.jpg) no-repeat center center;
+background-color:#a2b900;
+}
+
+.sh-container .section-10 .bimg-h {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/8.jpg) no-repeat center center;
+background-color:#2fc0b9;
+}
+
+.sh-container .section-10 .bimg-i {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/9.jpg) no-repeat center center;
+background-color:#c4c4c4;
+}
+
+.sh-container .section-10 .bimg-j {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/photo/10.jpg) no-repeat center center;
+background-color:#c4c4c4;
+}
+
+.sh-container .section-10 .blackbar {
+position:absolute;
+bottom:60px;
+left:50%;
+margin-left:-450px;
+width:900px;
+height:0;
+border-bottom:2px solid #000;
+z-index:3;
+overflow:hidden;
+}
+
+.sh-container .section-10 .scrollbar {
+width:900px;
+height:50px;
+position:absolute;
+bottom:60px;
+left:50%;
+list-style-type:none;
+overflow:hidden;
+z-index:4;
+margin:0 0 0 -450px;
+padding:0;
+}
+
+.sh-container .section-10 .scrollbar li {
+float:left;
+width:100px;
+height:50px;
+text-align:center;
+position:relative;
+cursor:pointer;
+margin:0;
+padding:0;
+}
+
+.sh-container .section-10 .scrollbar li img {
+position:absolute;
+top:50px;
+left:0;
+width:100px;
+height:48px;
+border-bottom:2px solid #fff;
+-webkit-transition:top .3s ease-out;
+-moz-transition:top .3s ease-out;
+-o-transition:top .3s ease-out;
+transition:top .3s ease-out;
+}
+
+.sh-container .section-10 .scrollbar .showbig img {
+top:0;
+z-index:4;
+}
+
+.sh-container .section-10 .tip-msg {
+width:100%;
+position:absolute;
+left:0;
+bottom:20px;
+text-align:center;
+font-size:25px;
+color:#5c5c5c;
+}
+
+.fullpage-wrapper {
+z-index:10;
+}
+
+.fp-slide {
+float:left;
+}
+
+.fp-slide,.fp-slidesContainer {
+height:100%;
+display:block;
+}
+
+.fp-slides {
+height:100%;
+overflow:hidden;
+position:relative;
+-webkit-transition:all .3s ease-out;
+-moz-transition:all .3s ease-out;
+-o-transition:all .3s ease-out;
+transition:all .3s ease-out;
+}
+
+.fp-slidesContainer {
+float:left;
+position:relative;
+}
+
+.fp-easing {
+-webkit-transition:all 1s cubic-bezier(0.86,0,0.07,1);
+-moz-transition:all 1s cubic-bezier(0.86,0,0.07,1);
+-o-transition:all 1s cubic-bezier(0.86,0,0.07,1);
+transition:all 1s cubic-bezier(0.86,0,0.07,1);
+}
+
+#fp-nav {
+position:fixed;
+z-index:100;
+margin-top:-32px;
+top:50%;
+opacity:1;
+}
+
+#fp-nav.right {
+right:40px;
+}
+
+#fp-nav li {
+display:block;
+width:14px;
+height:14px;
+position:relative;
+list-style:none;
+margin:14px;
+}
+
+#fp-nav li a {
+display:block;
+position:relative;
+z-index:1;
+width:100%;
+height:100%;
+cursor:pointer;
+text-decoration:none;
+}
+
+#fp-nav li .active span {
+background:none;
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+transform:scale(1);
+border-color:#6aadf1;
+}
+
+#fp-nav li span {
+top:1px;
+left:1px;
+width:8px;
+height:8px;
+background:#d4d4d5;
+border:2px solid #d4d4d5;
+-webkit-border-radius:50%;
+-moz-border-radius:50%;
+border-radius:50%;
+position:absolute;
+z-index:1;
+-webkit-transform:scale(0.3);
+-moz-transform:scale(0.3);
+-o-transform:scale(0.3);
+transform:scale(0.3);
+-webkit-transition:all .3s ease-out;
+-moz-transition:all .3s ease-out;
+-o-transition:all .3s ease-out;
+transition:all .3s ease-out;
+}
+
+.fp-tooltip {
+width:200px;
+position:absolute;
+color:#d4d4d5;
+font-size:14px;
+top:-3px;
+right:25px;
+text-align:right;
+font-style:normal;
+-webkit-transition:all .3s ease-out;
+-moz-transition:all .3s ease-out;
+-o-transition:all .3s ease-out;
+transition:all .3s ease-out;
+}
+
+.sh-footer {
+overflow:hidden;
+font-family:FZLTXHK;
+background-color:#fff;
+margin:0 auto;
+}
+
+.sh-footer .item:first-child {
+border-left:none;
+}
+
+.sh-footer .item {
+float:left;
+width:50%;
+height:480px;
+margin-left:-1px;
+border-left:1px solid #ddd;
+text-align:center;
+}
+
+.sh-footer .item h3 {
+font-size:28px;
+color:#070707;
+font-weight:400;
+line-height:normal;
+margin:0;
+}
+
+.sh-footer .item p {
+font-size:22px;
+line-height:normal;
+color:#8f8e8e;
+margin:0;
+}
+
+.sh-footer .item p span,.sh-footer .item p a {
+display:inline-block;
+margin-top:20px;
+font-size:20px;
+color:#f10b0b;
+}
+
+.showfooter-1.site-topbar {
+margin-top:-300px;
+}
+
+50%,.sh-container .section-01.text-show .mouse-down {
+opacity:1;
+}
+
+.num-1-0,.num-2-0 {
+background-position:0 0;
+}
+
+.xm-product-box .hd .separator,.xm-product-box .nav-bar .title .separator {
+margin:0 5px;
+}
+
+.xm-product-box .nav-switch .tab,.xm-product-box .nav-switch .link,.xm-product-box .nav-switch .tab:hover,.xm-product-box .nav-switch .link:hover,.sh-bar .nav li a {
+color:#333;
+}
+
+.xm-product-box .btn-disable:hover,.specs-main .specs-right .specs-cover .cover-btn li .color-btn-1 {
+background:#333;
+}
+
+.specs-main p,#fp-nav ul {
+margin:0;
+padding:0;
+}
+
+.specs-main .specs-right .specs-cover .cover-btn,.sh-footer .container {
+margin-top:50px;
+}
+
+.sh-container .section-02 .container .content h3,.sh-container .section-07 .container .content h3 {
+font-size:40px;
+margin:0 0 15px;
+}
+
+.sh-container .section-04 .item,.sh-container .section-08 .item {
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+}
+
+.sh-container .section-05 .container .content p,.sh-container .section-07 .container .content p,.sh-container .section-08 .item .tab-wrap .txt-box p,.sh-container .section-09 .pic-list li p {
+font-size:16px;
+margin:0;
+}
+
+.sh-container .section-06 .unlock-wrap,.sh-container .section-10 .img-box {
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+-webkit-transition:all .8s ease-out;
+-moz-transition:all .8s ease-out;
+-o-transition:all .8s ease-out;
+transition:all .8s ease-out;
+}
+
+.sh-container .section-08 .item .tab-wrap .video-box .video,.sh-container .section-08 .item .tab-wrap .video-box video {
+height:600px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .video-box video,.sh-footer .item img {
+display:block;
+margin:0 auto;
+}
+
+@media max-width 1260px{
+.sh-bar .container,.sh-container .container,.specs-main .container,.sh-footer .container {
+width:950px;
+}
+
+.sh-container .section-01 .container .video-box video {
+width:1080px;
+}
+
+.sh-container .section-02 .circle-box {
+margin-left:-475px;
+background-size:950px;
+}
+
+.sh-container .section-03 .slide .app {
+left:0;
+width:231px;
+height:387px;
+}
+
+.sh-container .section-03 .slide .app .con {
+padding-top:130px;
+}
+
+.sh-container .section-03 .slide-1 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-1 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app-s.png) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-2 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app-s.png) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-3 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-3 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app-s.png) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-2 .app {
+left:0;
+top:95px;
+width:230px;
+height:386px;
+background-size:230px;
+}
+
+.sh-container .section-04 .item-2 .circle {
+width:147px;
+height:159px;
+top:455px;
+right:140px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle-s.png) no-repeat;
+}
+
+.sh-container .section-04 .item-3 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-3 .app {
+left:0;
+top:95px;
+width:230px;
+height:386px;
+background-size:250px;
+}
+
+.sh-container .section-04 .item-3 .shake {
+width:123px;
+height:123px;
+top:475px;
+right:153px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-shake-s.png) no-repeat;
+}
+
+.sh-container .section-05 .container .pic-1 {
+width:294px;
+height:513px;
+margin-left:-147px;
+background-size:330px;
+background-position:center 16px;
+background-repeat:no-repeat;
+}
+
+.sh-container .section-05 .container .pic-2 {
+width:202px;
+height:447px;
+margin-left:148px;
+background-position:-25px bottom;
+}
+
+.sh-container .section-05 .container .pic-3 {
+width:204px;
+height:457px;
+margin-left:-351px;
+background-size:210px;
+background-position:left bottom;
+}
+
+.sh-container .section-06 .unlock-wrap .content {
+top:125px;
+}
+
+.sh-container .section-06 .unlock-wrap .tabs {
+top:378px;
+}
+
+.sh-container .section-06 .unlock-wrap .hand {
+width:820px;
+height:488px;
+left:-237px;
+top:377px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1-hand-s.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .hand-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2-hand-s.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .hand-active {
+left:-75px;
+top:365px;
+}
+
+.sh-container .section-06 .unlock-wrap .phone {
+width:315px;
+height:772px;
+top:113px;
+right:0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-phone-s.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .phone .desktop {
+width:199px;
+height:314px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-lock-s.png) no-repeat;
+margin:33px 0 0 34px;
+}
+
+.sh-container .section-06 .unlock-wrap .phone-active-1 .desktop {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-password-s.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .phone-active-2 .desktop {
+background:url(http://img03.mifile.cn/webfile/images/2014/cn/goods/shouhuan/sh-6-unlock.png) no-repeat;
+background-size:200px;
+}
+
+.sh-container .section-06 .unlock-wrap .ripple {
+width:198px;
+height:198px;
+top:276px;
+left:658px;
+background-size:198px 198px;
+}
+
+.sh-container .section-06 .unlock-wrap .tip {
+left:485px;
+top:125px;
+}
+
+.sh-container .section-06 .unlock-wrap .bluetooth {
+left:500px;
+top:565px;
+}
+
+.sh-container .section-07 {
+background-position:center 0;
+background-repeat:no-repeat;
+background-size:1430px;
+}
+
+.sh-container .section-07 .container .content {
+top:105px;
+}
+
+.sh-container .section-07 .container .shake {
+width:159px;
+height:177px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-7-1-shake-s.png) no-repeat;
+top:440px;
+left:555px;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .txt-box,.sh-container .section-08 .item-1 .tab-wrap .tab-nav {
+left:0;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .video-box {
+left:450px;
+}
+
+.sh-container .section-10 .img-box {
+background-size:100% auto;
+}
+
+#fp-nav.right {
+right:20px;
+}
+
+.sh-container .section-04 .item-1 .txt,.sh-container .section-04 .item-2 .txt,.sh-container .section-04 .item-3 .txt {
+top:110px;
+}
+}
+
+@media max-height 1000px and min-width 1240px{
+.sh-container .section-01 .container .video-box video {
+top:0;
+}
+
+.sh-container .section-01 .container .content {
+top:500px;
+}
+
+.sh-container .section-01 .container .content .sub {
+margin-bottom:20px;
+}
+
+.sh-container .section-01 .mouse-down {
+bottom:30px;
+}
+
+.sh-container .section-02 .circle-box {
+width:790px;
+height:692px;
+margin-left:-395px;
+top:100px;
+background-repeat:no-repeat;
+background-size:790px;
+}
+
+.sh-container .section-02 .container .content {
+top:230px;
+}
+
+.sh-container .section-02 .container .content h3 {
+font-size:25px;
+}
+
+.sh-container .section-02 .container .time {
+top:550px;
+}
+
+.sh-container .section-03 .slide .app {
+left:0;
+width:231px;
+height:387px;
+}
+
+.sh-container .section-03 .slide .app .con {
+padding-top:130px;
+}
+
+.sh-container .section-03 .slide-1 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-1 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app-s.png) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-2 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app-s.png) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-3 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-3 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app-s.png) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-1 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-2 .circle {
+width:147px;
+height:159px;
+top:455px;
+right:300px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle-s.png) no-repeat;
+}
+
+.sh-container .section-04 .item-3 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-3 .shake {
+right:310px;
+}
+
+.sh-container .section-05 .container .pic {
+bottom:-50px;
+}
+
+.sh-container .section-05 .container .pic-1 {
+width:294px;
+height:513px;
+margin-left:-147px;
+background-size:317px;
+background-position:center 16px;
+background-repeat:no-repeat;
+}
+
+.sh-container .section-05 .container .pic-2 {
+width:202px;
+height:447px;
+margin-left:148px;
+background-size:202px;
+background-position:-17px bottom;
+}
+
+.sh-container .section-05 .container .pic-3 {
+width:204px;
+height:457px;
+margin-left:-351px;
+background-size:210px;
+background-position:left bottom;
+}
+
+.sh-container .section-06 .unlock-wrap .ripple {
+left:949px;
+}
+
+.sh-container .section-06 .unlock-wrap .hand {
+left:-75px;
+}
+
+.sh-container .section-06 .unlock-wrap .hand-active {
+left:237px;
+}
+
+.sh-container .section-06 .unlock-wrap .bluetooth {
+left:600px;
+}
+
+.sh-container .section-06 .unlock-wrap .tip {
+left:700px;
+}
+
+.sh-container .section-07 {
+background-position:center 0;
+background-repeat:no-repeat;
+background-size:1430px;
+}
+
+.sh-container .section-07 .container .content {
+top:105px;
+}
+
+.sh-container .section-07 .container .shake {
+width:159px;
+height:177px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-7-1-shake-s.png) no-repeat;
+top:440px;
+left:710px;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .txt-box {
+top:300px;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .video-box {
+top:120px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .video-box {
+top:80px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .video-box video {
+height:450px;
+}
+
+.sh-container .section-09 .pic-list li {
+height:330px;
+background-position:center center;
+}
+
+.sh-container .section-09 .pic-list li h3 {
+margin-top:265px;
+}
+
+.sh-container .section-10 .img-box {
+background-size:auto 100%;
+}
+
+.sh-container .section-03 .slide .txt,.sh-container .section-04 .item .txt {
+right:50px;
+}
+
+.sh-container .section-04 .item-1 .txt,.sh-container .section-04 .item-2 .txt,.sh-container .section-04 .item-3 .txt {
+top:110px;
+}
+
+.sh-container .section-04 .item-2 .app,.sh-container .section-04 .item-3 .app {
+left:0;
+top:95px;
+width:230px;
+height:386px;
+background-size:230px;
+}
+
+.sh-container .section-06 .unlock-wrap .content,.sh-container .section-06 .unlock-wrap .tabs {
+left:200px;
+}
+}
+
+@media max-height 780px{
+.sh-container .section-01 .container .video-box video {
+top:-20px;
+}
+
+.sh-container .section-01 .container .content {
+top:460px;
+}
+
+.sh-container .section-01 .container .content .price {
+margin-bottom:0;
+}
+
+.sh-container .section-01 .mouse-down {
+bottom:10px;
+}
+
+.sh-container .section-02 .circle-box {
+width:790px;
+height:635px;
+margin-left:-395px;
+top:65px;
+background-repeat:no-repeat;
+background-size:790px;
+}
+
+.sh-container .section-02 .container .content {
+top:205px;
+}
+
+.sh-container .section-02 .container .content h3 {
+font-size:27px;
+font-weight:400;
+padding-left:30px;
+}
+
+.sh-container .section-02 .container .time {
+top:525px;
+}
+
+.sh-container .section-03 .slide .app {
+left:0;
+width:231px;
+height:387px;
+}
+
+.sh-container .section-03 .slide .app .con {
+padding-top:130px;
+}
+
+.sh-container .section-03 .slide-1 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-1 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-1-app-s.png) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-2 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-2-app-s.png) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-3 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-03 .slide-3 .app {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-3-3-app-s.png) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-1 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-1-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-1 .txt {
+top:110px;
+width:370px;
+background-size:370px;
+}
+
+.sh-container .section-04 .item-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-2 .app {
+left:0;
+top:95px;
+width:230px;
+height:386px;
+background-size:230px;
+}
+
+.sh-container .section-04 .item-2 .circle {
+width:147px;
+height:159px;
+top:455px;
+right:140px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-2-circle-s.png) no-repeat;
+}
+
+.sh-container .section-04 .item-3 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-s.jpg) no-repeat center 0;
+}
+
+.sh-container .section-04 .item-3 .app {
+left:0;
+top:95px;
+width:230px;
+height:386px;
+background-size:230px;
+background-repeat:no-repeat;
+}
+
+.sh-container .section-04 .item-3 .shake {
+width:123px;
+height:123px;
+top:475px;
+right:153px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-4-3-shake-s.png) no-repeat;
+}
+
+.sh-container .section-05 .container .content {
+top:57px;
+}
+
+.sh-container .section-05 .container .content h3 {
+font-size:30px;
+line-height:35px;
+}
+
+.sh-container .section-05 .container .content p {
+font-size:14px;
+}
+
+.sh-container .section-05 .container .pic {
+bottom:-100px;
+}
+
+.sh-container .section-05 .container .pic-1 {
+width:294px;
+height:513px;
+margin-left:-147px;
+background-size:317px;
+background-position:center 16px;
+background-repeat:no-repeat;
+}
+
+.sh-container .section-05 .container .pic-2 {
+width:202px;
+height:447px;
+margin-left:148px;
+background-size:225px;
+background-position:-25px bottom;
+}
+
+.sh-container .section-05 .container .pic-3 {
+width:204px;
+height:457px;
+margin-left:-351px;
+background-size:210px;
+background-position:left bottom;
+}
+
+.sh-container .section-06 .unlock-wrap .content {
+top:125px;
+}
+
+.sh-container .section-06 .unlock-wrap .content h3 {
+font-size:27px;
+line-height:30px;
+}
+
+.sh-container .section-06 .unlock-wrap .content p {
+font-size:13px;
+}
+
+.sh-container .section-06 .unlock-wrap .tabs {
+top:378px;
+}
+
+.sh-container .section-06 .unlock-wrap .hand {
+width:820px;
+height:488px;
+left:-237px;
+top:377px;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-1-hand-s.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .hand-2 {
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-2-hand-s.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .hand-active {
+left:-75px;
+top:365px;
+}
+
+.sh-container .section-06 .unlock-wrap .phone {
+width:315px;
+height:772px;
+top:113px;
+right:0;
+background:url(http://global.mifile.cn/webfile/globalimg/common/wristband/sh-6-phone-s.png) no-repeat;
+}
+
+.sh-container .section-06 .unlock-wrap .phone .desktop {
+width:199px;
+height:314px;
+background-size:200px;
+margin:32px 0 0 33px;
+}
+
+.sh-container .section-06 .unlock-wrap .phone-active-2 .desktop {
+background-size:200px;
+}
+
+.sh-container .section-06 .unlock-wrap .ripple {
+width:198px;
+height:198px;
+top:276px;
+left:658px;
+background-size:198px 198px;
+}
+
+.sh-container .section-06 .unlock-wrap .tip {
+left:425px;
+top:125px;
+}
+
+.sh-container .section-06 .unlock-wrap .bluetooth {
+left:500px;
+top:565px;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .txt-box {
+top:280px;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .tab-nav {
+top:570px;
+}
+
+.sh-container .section-08 .item-1 .tab-wrap .video-box {
+top:100px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .video-box {
+top:80px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .video-box video {
+height:400px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .txt-box {
+top:510px;
+}
+
+.sh-container .section-08 .item-2 .tab-wrap .tab-nav {
+top:635px;
+}
+
+.sh-container .section-09 .pic-list li {
+height:340px;
+}
+
+.sh-container .section-09 .pic-list li h3 {
+margin-top:240px;
+font-size:25px;
+}
+
+.sh-container .section-09 .content {
+padding-top:20px;
+}
+
+.sh-container .section-10 .img-box {
+background-size:auto 100%;
+}
+
+.sh-container .section-01 .container .content .sub,.sh-container .section-09 .content h3,.sh-container .section-09 .content .info li span {
+margin-bottom:10px;
+}
+
+.sh-container .section-02 .container .content p,.sh-container .section-06 .unlock-wrap .content p span,.sh-container .section-09 .pic-list li p {
+font-size:12px;
+}
+
+.sh-container .section-04 .item-2 .txt,.sh-container .section-04 .item-3 .txt {
+top:110px;
+}
+}
+
+@media max-height 700px{
+.sh-container .section-01 .container .video-box video {
+width:960px;
+}
+
+.sh-container .section-01 .container .content {
+top:350px;
+}
+}
