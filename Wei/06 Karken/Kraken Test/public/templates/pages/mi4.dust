@@ -1,0 +1,10 @@
+{>"layouts/master" /}
+
+{<title}
+	{@pre type="content" key="title"/}
+{/title}
+
+
+{<body}
+    <h1>{@pre type="content" key="greeting"/}</h1>
+{/body}
