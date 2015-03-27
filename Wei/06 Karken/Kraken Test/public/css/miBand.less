@@ -1,0 +1,263 @@
+@font: Helvetica,"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+
+body {
+  line-height: 20px;
+  font-family: @font;
+}
+
+
+body, h1, h2, h3, h4, h5, h6, blockquote, p, pre, dl, dd, menu, ol, ul, caption, th, td, form, fieldset, legend, input, button, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+.transitioneffect(@times) {
+  -webkit-transition: all @times cubic-bezier(0.445,0.05,0.55,0.95);
+  -moz-transition: all @times cubic-bezier(0.445,0.05,0.55,0.95);
+  -o-transition: all @times cubic-bezier(0.445,0.05,0.55,0.95);
+  transition: all @times cubic-bezier(0.445,0.05,0.55,0.95);
+}
+
+
+.widthvalueeffect(@widthvalue) {
+	-webkit-transition: @widthvalue;
+	-moz-transition: @widthvalue;
+	-o-transition: @widthvalue;
+	transition: @widthvalue;
+}
+
+
+.site-topbar {
+  .transitioneffect(500ms);
+  margin-top: 0px;
+  height: auto;
+  position: relative;
+  z-index: 11;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 12px;
+  line-height: 36px;
+  color: #6d6d6d;
+  background: #fafafa;
+  .top {
+  	z-index: 130;
+  }
+  .container {
+  	width: 1240px;
+  }
+}
+
+
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #ff4a00;
+  .top {
+	  width: 1240px;
+	  height: 80px;
+	  position: relative;
+	  z-index: 23;
+	  overflow: visible;
+	  .widthvalueeffect(width 1s);
+	  margin: 0 auto;
+  }
+  .logo {
+	  position: absolute;
+	  top: 15px;
+	  left: 0;
+  }
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+
+.container {
+  width: 1240px;
+  .widthvalueeffect(width 1s);
+  margin: 0 auto;
+}
+
+
+
+.site-topbar a {
+  color: #6d6d6d;
+}
+
+
+.logo-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-image: url(http://global.mifile.cn/webfile/globalimg/sg/2014/icon/common/iconAll.png);
+  background-position: -8px -8px;
+}
+
+
+.header .nav-menu {
+  float: right;
+  list-style-type: none;
+  display: inline-block;
+  font-family: @font;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  li {
+	  float: left;
+	  font-size: 18px;
+	  line-height: 70px;
+	  display: inline-block;
+	  height: 70px;
+	  color: #333;
+	  padding-top: 10px;
+	  text-align: center;
+	  position: relative;
+	  cursor: pointer;
+	  a {
+		  display: inline-block;
+		  height: 70px;
+		  span {
+			  padding-left: 30px;
+			  padding-right: 30px;
+			  border-right: 1px solid #dfdfdf;
+			  .widthvalueeffect(all 1s)
+		  .last {
+			  border-right: none;
+			  padding-right: 0;
+			}
+         }
+      }
+  }
+  .active {
+  	cursor: default;
+  	a {
+  		cursor: default;
+  		color: #ff4a00;
+  	}
+ }
+}
+
+
+
+menu, ol, ul, li {
+  list-style: none;
+}
+
+
+
+.tranlate3deffec {
+	-webkit-transform: translate3d(0,0px,0px);
+	-moz-transform: translate3d(0,0px,0px);
+	-o-transform: translate3d(0,0px,0px);
+	transform: translate3d(0,0px,0px);
+}
+
+
+.sh-bar {
+  height: 59px;
+  border-bottom: 1px solid #dfdfdf;
+  background: #fff;
+  z-index: 110;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  shownow {
+	  .transitioneffect(900ms);
+	  opacity: 1;
+	  .tranlate3deffec;
+	}
+  h2 {
+	  float: left;
+	  line-height: 56px;
+	  font-size: 24px;
+	  font-weight: 400;
+	  margin: 0;
+  }
+  .nav {
+	  float: right;
+	  height: 30px;
+	  margin: 13px 0 0;
+	  li {
+		  float: left;
+		  line-height: 30px;
+		  cursor: pointer;
+		  margin: 0 10px;
+		  a {
+  			color: #333;
+			}
+	  }
+  }
+}
+
+.sh-bar .container, .sh-container .container, .specs-main .container, .sh-footer .container {
+  width: 1240px;
+}
+
+
+
+
+.footer {
+  background: #fff;
+  color: #434A54;
+  font-size: 12px;
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  padding: 25px 0 20px;
+}
+
+
+
+.foot_container {
+  width: 1240px;
+  padding-bottom: 82px;
+  .widthvalueeffect(width 1s);
+  margin: 0 auto;
+}
+
+.footer .footer_l {
+  float: left;
+  .nav {
+  	height: 12px;
+  	a:first-child {
+  		border-left: none;
+  		padding: 0 15px 0 0;
+	}
+	a {
+  		float: left;
+  		line-height: 12px;
+  		border-left: 1px solid #dfdfdf;
+  		color: #6d6d6d;
+  		padding: 0 15px;
+  	}
+  }
+}
+
+
+a {
+  color: #6d6d6d;
+  text-decoration: none;
+}
+
+.footer .footer_l .social {
+  height: 25px;
+  margin-top: 12px;
+  a {
+	  float: left;
+	  height: 25px;
+	  width: 26px;
+	  background: #8c8c8c url(http://global.mifile.cn/webfile/globalimg/en/2014/comm/social_logo.png) no-repeat;
+	  text-indent: -9999px;
+	  margin: 0 5px 0 0;
+  }
+  a.facebook {
+  	background-position: left top;
+  }
+  a.google-plus {
+  	background-position: center center;
+  }
+  a.twitter {
+  	background-position: right center;
+  }
+}

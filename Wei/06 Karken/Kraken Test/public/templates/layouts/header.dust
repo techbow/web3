@@ -1,0 +1,34 @@
+<div class="site-topbar">
+<div class="header clearfix">
+    <div class="top container">
+        <div class="logo">
+            <a href="http://www.mi.com/en/" title="Mi Global Home">
+                <span class="logoimg logo-icon"></span>
+            </a>
+        </div>
+
+        <ul class="nav-menu clearfix">
+            <li class="" ><a  href="http://www.mi.com/en/note4g"  target="_self"  ><span>Redmi Note 4G</span></a></li><li class="" ><a  href="http://www.mi.com/en/redmi1s/"  target="_self"  ><span>Redmi 1S</span></a></li><li class="" ><a  href="http://www.mi.com/en/mi4/"  target="_self"  ><span>Mi 4</span></a></li><li class="" ><a  href="http://www.mi.com/en/mitv"  target="_self"  ><span>Mi TV</span></a></li><li class="" ><a  href="http://www.mi.com/en/mibox"  target="_self"  ><span>Mi Box</span></a></li><li class="" ><a  href="http://www.mi.com/en/mipowerbank/"  target="_self"  ><span>Mi Power Bank</span></a></li><li class="" ><a  href="http://www.mi.com/en/headphones"  target="_self"  ><span>Mi Headphones</span></a></li><li class="active" ><a  href="http://www.mi.com/en/miband"  target="_self"  ><span class="last">Mi Band</span></a></li>        </ul>
+    </div>
+</div>
+</div>
+<!-- E header -->
+<div class="container breadcrumbs hide">
+</div>
+
+
+<div class="sub_nav sh-bar initpos" id="shBar">
+    <div class="container ">
+        <h2>
+            Mi Band
+        </h2>
+        <ul class="nav" data-switchy-tab="content" id="J_barMenu">
+            <li class="tab current">
+                <a data-target="#shBox">Features</a>
+            </li>
+            <li class="tab">
+                <a data-target="#shSpc">Specs</a>
+            </li>
+        </ul>
+    </div>
+</div>

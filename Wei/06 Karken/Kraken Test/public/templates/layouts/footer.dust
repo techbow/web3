@@ -1,0 +1,23 @@
+<div class="footer">
+    <div class="foot_container">
+        <div class="footer_l">
+            <div class="nav">
+                <a href="http://www.mi.com/en/about">About us</a>
+                <a href="http://www.mi.com/en/founder">Management</a>
+                <a href="http://www.mi.com/en/contact">Contact us</a>
+                <a href="http://www.mi.com/en/privacy">Privacy Policy</a>
+                <a href="http://www.mi.com/en/agreement">User Agreement</a>
+
+            </div>
+            <div class="social">
+                <a class="facebook" href="https://www.facebook.com/xiaomichina" target="_blank">Facebook</a>
+                <a class="google-plus" href="https://plus.google.com/112108000562542116245" rel="publisher" target="_blank">Google+</a>
+                <a class="twitter" href="https://twitter.com/Xiaomi" target="_blank">Twitter</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
