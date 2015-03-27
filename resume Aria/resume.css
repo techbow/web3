@@ -1,0 +1,163 @@
+.page{
+	width: 700px;
+	height: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 40px 30px 40px;
+	background-color: #9b59b6;
+    color:white;
+	
+}
+
+
+
+.head{
+	height: 90px;
+	
+}
+
+#selfie{
+	float: left;
+	height: 70px;
+	width: 70px;
+
+}
+.intro{
+	position: relative;
+	float: left;
+	margin-left: 10px;
+}
+
+#name{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#position{
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.contact{
+	position: relative;
+	float: right;
+	font-size:7px;
+	text-align: right;	
+	line-height: 1.5em;
+	font-family: Helvetica;
+	font-weight: 100;
+}
+
+.summary{
+	height: 90px;
+	margin-top: 50px;
+	
+}
+
+.exp{
+	float: left;
+
+}
+
+#num1, #num2, #num3, #num4{
+	position: relative;
+	float:left;
+	font-family: Arial;
+	font-size: 80px;
+	font-weight: lighter;
+	margin-top: 5px;
+
+}
+
+.sum1, .sum2, .sum3, .sum4{
+	position: relative;
+	float: left;
+	margin-left: 15px;
+	margin-top: 25px;
+}
+
+.sum1 p, .sum2 p, .sum3 p, .sum4 p{
+	font-size: 10px;
+}
+
+.fil, .uni{
+	position: relative;
+	float: left;
+	margin-left: 40px;
+}
+
+.pub{
+	float: right;
+}
+
+.sum4{
+	margin-top: 50px;
+}
+
+.left-content{
+	
+	width: 300px;
+	float: left;
+	margin-top: -30px;
+}
+
+.title{
+	margin: 0;
+	font-family: Arial;
+	font-weight: 600;
+}
+
+.left1{
+	margin-bottom: 30px;
+}
+
+.detail{
+	font-size: 10px;
+	font-family: Helvetica;
+	line-height: 1.4em;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+.subtitle{
+	font-family: Helvetica;
+	font-size: 13px;
+	font-weight: 800;
+	margin-bottom: 5px;
+}
+
+#date1,#date2,#date3,#date4{
+	font-family: Helvetica;
+	font-size: 5px;
+	color:#e2b1d9;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.right-content{
+	width: 300px;
+	float: left;
+	margin-top: -30px;
+	margin-left: 100px;
+}
+#left{
+	position: relative;
+	float: left;
+	margin-right: 30px;
+}
+#right{
+	position: relative;
+	float: left;
+}
+
+.right1{
+	height: 240px;
+}
+.right2{
+	height: 230px;
+}
+
+.right3{
+	height: 100px;
+}
+
